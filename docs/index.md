@@ -1,5 +1,3 @@
-# B.W
-
 ## [Visual Studio Code](/vscode)
 
 ## [Tmux](/tmux)
