@@ -1,0 +1,182 @@
+/*
+CSS file to provide common style variables, classes, and customization for JCAT test result report (start from !!! JCAT Report Customization !!!).
+
+More information about color, theme, components and design principles, please refer to EDS: https://eds.internal.ericsson.com/
+
+@author: bruce.wen@ericsson.com
+v0.1
+2022-01-13
+
+Usage:
+Install "stylus" browser extension, and create new style, then paste content of this file into "code" text field, then fill 'https://(.*)/jcat/(.*)' in "Applied for" in bottom part - select 'URLs matching the regexp'.
+*/
+@charset "UTF-8";
+/**********************************************************
+common part:
+global variables and basic common classes
+**********************************************************/
+/*global variables:
+define reusable variables and reuse for specific scenarios
+*/
+:root {
+    /*definition of color codes*/
+    --gray_05:#0C0C0C;
+    --gray_09:#181818;
+    --gray_14:#242424;
+    --gray_15:#292929;
+    --gray_21:#313131;
+    --gray_37:#5f5f5f;
+    --gray_64:#a4a4a4;
+    --gray_68:#acacac;
+    --gray_76:#d7d7d7;
+    --gray_95:#F2F2F2;
+
+    --blue_30: #005499;
+    --blue_40: #0062b3;
+    --blue_50: #008CFF;
+    --blue_51: #1e90ff;
+    --blue_60: #9ad1ff;
+
+    /*red 10-60 are for bg color, red 110-160 are for fg color*/
+    --red_5: #3f0000; /*very dark red*/
+    --red_10: #580000; /*very dark red*/
+    --red_20: #710000; /*dark moderate red*/
+    --red_30: #8b0000;
+    --red_40: #a1571b;
+    --red_50: #cd6f23;
+    --red_60: #df8943;
+    --red_110: #cf4222;
+    --red_120: #dd4e2d;
+    --red_130: #e06143;
+    --red_132: #e06e43;
+    --red_140: #e47359;
+    --red_150: #eb9885;
+    --red_160: #f2bdb1; /*light red*/
+
+    --green_20: #0c4a19;
+    --green_30: #106020;
+    --green_70: #2e8b57;
+
+    --orange_50: #E66E19;
+    --orange_60: #eb8b47;
+    --orange_65: #ee9a5e;
+    --orange_90: #ffe4b5;
+
+    --yellow_50: #808000;
+
+    --cyan_30: #00ced1;
+    --cyan_60: #28ddee;
+
+    --purple_48: #8E45B0;
+
+    /*definition of color usage scenarios*/
+    --default_font_size: 13x;
+    --code_font_size: 15px;
+
+    --fg_default: var(--gray_76);
+    --fg_head: var(--blue_50);
+    --fg_failed: var(--red_110);
+    --fg_assert: var(--red_120);
+    --fg_error: var(--red_130);;
+    --fg_exception: var(--red_132);;
+    --fg_warning: var(--red_140);
+    --fg_skipped: var(--red_150);
+    --fg_excluded: var(--red_160);
+    --fg_link: var(--blue_50);
+    --fg_link_visited: var(--orange_50);
+
+    --color_input_hover: var(--purple_48);
+
+    --default_padding: 3px;
+    --padding_5: 5px;
+    --padding_8: 8px;
+    --padding_10: 10px;
+
+    --default_margin: 5px;
+    --margin_3: 3px;
+    --margin_8: 8px;
+    --margin_10: 10px;
+    --margin_15: 15px;
+
+    --bg_sysbar: var(--gray_05);
+    --bg_bold: var(--gray_09);
+    --bg_default: var(--gray_14);
+
+    --bg_passed:var(--green_30);
+    --bg_passed_hover:var(--green_20);
+    --bg_failed: var(--red_10);
+    --bg_failed_hover:var(--red_5);
+    --bg_assert: var(--red_20);
+    --bg_error: var(--red_30);;
+    --bg_warning: var(--red_40);
+    --bg_skipped: var(--red_50);
+    --bg_excluded: var(--red_60);
+
+    --fg_highlight_msg: #ccbd65;
+    --fg_head_msg: #8fcf96;
+    --fg_skip: #f6f511;
+    --fg_passed:#7cfc00;
+    --bg_highlight: #cdcd08;
+    --height_tr_head:45px;
+    --height_tr_special:50px;
+
+    --color_border: var(--gray_37);
+    --color_border_button: var(--blue_50);
+    --default_border_radius: 6px;
+    --default_border_size: 0.5px;
+
+    --default_font_family: "Ericsson Hilda", Arial, Helvetica, Sans-serif, Courier, Courier-New;
+    --font_family_code: "Roboto Mono", "courier", "courier-new";
+    --footbar_height: 35px;
+    --foot_padding: 15px;
+
+    --tr_height: 35px;
+    --tr_height_45: 45px;
+
+    --search_box_height: 32px;
+
+    --button_font_size: 14px;
+    --fg_button: var(--fg_default);
+    --bg_button: var(--blue_50);
+    --button_border_radius: 3px;
+    --button_height: 32px;
+    --button_min_width: 60px;
+    --button_padding: 5px 12px;
+    --button_decoration: "none";
+
+    --h1: 45px;
+    --h2: 35px;
+    --h3: 25px;
+    --h4: 18px;
+    --h5: 16px;
+    --h6: 14px;
+
+    /*JCAT global variables*/
+    --fg_step: var(--blue_60);
+    --bg_suite_collapse: var(--gray_37);
+    --testlog_row_border_color: var(--gray_37);
+    --testlog_toolbar_height: 60px;
+    --pagination_height: 50px;
+    --pagination_button_height: 32px;
+    --testlog_row_height: var(--tr_height_45);
+    --table_header_height: 50px;
+}
+
+/* -------------------------------------------------------------------
+SECTION: Body and Paragraph and Blocks
+ -------------------------------------------------------------------*/
+* {
+    font-family: var(--default_font_family);
+    font-size: var(--default_font_size);
+    font-weight: 400 !important;
+}
+
+/*Wrap code with long line*/
+code {
+    white-space : pre-wrap !important;
+    font-family: var(--font_family_code);
+}
+
+.important {
+    color: orange !important;
+}
