@@ -1,0 +1,21 @@
+---
+name: Prepare Github Pages
+
+on:
+  push:
+    branches: [ "main" ]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v3
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: build mkdocs for github pages and deploy to the branch gh_deploy
+        run: mkdocs gh_deploy
