@@ -19,7 +19,4 @@ jobs:
       - run: pip install -r requirements.txt
       - name: build mkdocs for github pages and deploy to the branch gh_deploy
         run: |
-          git checkout gh-pages
-          git pull origin gh-pages
-          git checkout main
           mkdocs gh-deploy
