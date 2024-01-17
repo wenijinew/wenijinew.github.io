@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install -r requirements.txt
-      - name: build mkdocs for github pages and deploy to the branch gh_deploy
+      - name: build mkdocs for github pages and deploy to the branch gh-pages
         run: |
           git fetch --depth 10 origin +refs/heads/*:refs/remotes/origin/*
           mkdocs gh-deploy
