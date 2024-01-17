@@ -21,4 +21,5 @@ jobs:
         run: |
           git checkout gh-pages
           git pull origin gh-pages
+          git checkout main
           mkdocs gh-deploy
