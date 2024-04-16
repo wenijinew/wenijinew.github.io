@@ -1,4 +1,12 @@
+<<<<<<< HEAD
+
 ## Shell Programming
+
+=======
+
+# Shell Programming
+
+> > > > > > > 6467623a18fc1d7ca87d05f7e1534172cfac062f
 
     No programming language is perfect. There is not even a single best language; there are only languages well suited or perhaps poorly suited for particular purposes. --- Herbert Mayer
 
