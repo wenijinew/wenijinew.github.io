@@ -367,3 +367,13 @@ else
     take some action
 fi
 ```
+
+Provide a placeholder where a binary operation is expected:
+
+```bash linenums="1"
+> : ${username=`whoami`}
+> echo $username
+wenijinew
+> ${username=`whoami`}
+bash: wenijinew: command not found
+```
