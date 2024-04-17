@@ -377,3 +377,37 @@ wenijinew
 > ${username=`whoami`}
 bash: wenijinew: command not found
 ```
+
+Evaluate string of variables using parameter substitution:
+
+```bash linenums="1"
+> : ${HOSTNAME?} ${USER?} ${MAIL?}
+> : ${HOSTNAME?} ${USER?} ${MAIL?} ${ABC?}
+bash: ABC: parameter null or not set
+```
+
+In combination with the > redirection operator, truncates a file to zero length, without changing its permissions. If the file did not previously exist, creates it.
+
+```bash linenums="1"
+> wc -l 7004e157.txt
+42 7004e157.txt
+> :> 7004e157.txt && wc -l 7004e157.txt
+0 7004e157.txt
+```
+
+!!! note "`:> file.txt` vs `cat /dev/null > file.txt`"
+
+    `:> file.txt` has the same effect with `cat /dev/null > file.txt` but `:> file.txt` won't fork a new process since `:` is a builtin.
+
+!!! note "`:> file.txt` vs `:>> file.txt`"
+
+    `:>> file.txt` has no effect if `file.txt` is previous-existing while `:> file.txt` will empty the content of `file.txt`if it's previous-existing.
+    Both will create a new empty `file.txt` if it didn't previously exist.
+
+May be used to begin a comment line, although this is not recommended. Using # for a comment turns off error checking for the remainder of that line, so almost anything may appear in a comment. However, this is not the case with :.
+
+```bash linenums="1"
+: This is a comment that generates an error, ( if [ $x -eq 3] ).
+```
+
+The ":" also serves as a field separator, in /etc/passwd, and in the $PATH variable.
