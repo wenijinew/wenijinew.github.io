@@ -51,7 +51,6 @@ theme:
       work: fontawesome/solid/pen-nib
 plugins:
   - search
-  - mkdocstrings
   - tags
 
 markdown_extensions:
