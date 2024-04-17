@@ -265,3 +265,105 @@ Permits putting two or more commands on the same line.
         xyz) echo "\$variable = xyz" ;;
     esac
 ```
+
+### `.` dot
+
+- The dot command - equivalent to `source` and it's a bash builtin.
+- The dot as a component of a filename. a leading dot is the prefix of a hidden file.
+- The dot character match and it matches a single character.
+
+### `'` and `"` Quoting
+
+- `"` is used for partial quoting - "STRING" preserves (from interpretation) most of the special characters within STRING.
+- `'` is used for full quoting - 'STRING' preserves all special characters within STRING. This is a stronger form of quoting than "STRING".
+
+### `,` Comma operator
+
+The comma operator links together a series of arithmetic operations. All are evaluated, but only the last one is returned.
+
+```bash linenums="1"
+> let "t2 = ((a = 9, 15 / 3))"
+> echo $t2
+5
+```
+
+The comma operator can also concatenate strings. The below example looks advanced. :smile:
+
+```bash linenums="1"
+> for file in /{,usr/}bin/*calc
+> do
+> if [ -x "$file" ]
+> then
+> echo $file
+> fi
+> done
+/bin/hwloc-calc
+/bin/mpicalc
+/bin/oocalc
+/usr/bin/hwloc-calc
+/usr/bin/mpicalc
+/usr/bin/oocalc
+```
+
+### `,, ,` Lowercase conversion in parameter substitution
+
+It's added in version 4 of bash.
+
+### `\` Escape
+
+A quoting mechanism for single characters. \X escapes the character X. This has the effect of "quoting" X, equivalent to 'X'. The \ may be used to
+quote " and ', so they are expressed literally.
+
+### `/` Filename path separator
+
+Separates the components of a filename (as in /home/bozo/projects/Makefile).
+This is also the division arithmetic operator.
+
+### ` Command substitution
+
+The \`command\` construct makes available the output of command for
+assignment to a variable. This is also known as backquotes or backticks.
+
+### `:` Null command
+
+This is the shell equivalent of a "NOP" (no op, a do-nothing operation). It
+may be considered a synonym for the shell builtin true. The ":" command is itself a Bash builtin, and its exit status is true (0).
+
+```bash linenums="1"
+:
+echo $? # 0
+```
+
+It can be used to construct an endless loop:
+
+```bash linenums="1"
+while :
+do
+ operation-1
+ operation-2
+ ...
+ operation-n
+done
+```
+
+The while loop is the same as:
+
+```bash linenums="1"
+while true
+do
+ operation-1
+ operation-2
+ ...
+ operation-n
+done
+```
+
+It can be used as a placeholder in if/else:
+
+```bash linenums="1"
+if condition
+then :
+else
+    take some action
+fi
+```
