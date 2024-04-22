@@ -411,3 +411,140 @@ May be used to begin a comment line, although this is not recommended. Using # f
 ```
 
 The ":" also serves as a field separator, in /etc/passwd, and in the $PATH variable.
+
+### ! reverse (or negate) the sense of a test or exit status [bang].
+
+```bash linenums="1"
+> true
+> echo "exit status of \"true\" = $?"
+exit status of "true" = 0
+> ! true
+> echo "exit status of \"! true\" = $?"
+exit status of "true" = 1
+```
+
+As an operator prefixing a command invokes the Bash history mechanism. It's an convenient way to call the history command starting with the text after `!`.
+Here is an example:
+
+```bash linenums="1"
+> echo "Hello Bash!"
+> Hello Bash!
+> !echo
+> echo "Hello Bash!"
+```
+
+Note that within a script, the history mechanism is disabled.
+
+It also inverts the meaning of a test operator.
+This can, for example, change the sense of equal ( = ) to not-equal ( != ).
+The ! operator is a Bash keyword.
+
+### \* wild card [asterisk]
+
+The \* character serves as a "wild card" for filename expansion in globbing. By
+itself, it matches every filename in a given directory.
+
+```bash linenums="1"
+> ls /etc/lvm/profile/* -1
+/etc/lvm/profile/cache-mq.profile
+/etc/lvm/profile/cache-smq.profile
+/etc/lvm/profile/command_profile_template.profile
+/etc/lvm/profile/lvmdbusd.profile
+/etc/lvm/profile/metadata_profile_template.profile
+/etc/lvm/profile/thin-generic.profile
+/etc/lvm/profile/thin-performance.profile
+/etc/lvm/profile/vdo-small.profile
+```
+
+The \* also represents any number (or zero) characters in a regular expression.
+
+```bash linenums="1"
+> find /etc/lvm/profile/ -iregex ".*/c.*.profile"
+/etc/lvm/profile/cache-mq.profile
+/etc/lvm/profile/cache-smq.profile
+/etc/lvm/profile/command_profile_template.profile
+```
+
+In the context of arithmetic operations, the \* denotes multiplication.
+
+```bash linenums="1"
+> echo $((2 * 3))
+6
+```
+
+A double asterisk (\*\*) can represent the exponentiation operator or extended file-match globbing.
+
+```bash linenums="1"
+# show file names in the current directory
+> for f in *; do echo $f; done
+json
+json.lua
+ltn12.lua
+lxp
+mime.lua
+re.lua
+socket
+socket.lua
+
+# show file names in the currect directory and sub-directories recursively
+# must enable globstar, otherwise ** doesn't work.
+> shopt -s globstar
+> for f in **; do echo $f; done
+json
+json.lua
+json/decode
+json/decode.lua
+json/decode/composite.lua
+json/decode/number.lua
+json/decode/others.lua
+json/decode/state.lua
+json/decode/state.lua.lua-52
+json/decode/strings.lua
+json/decode/util.lua
+json/encode
+json/encode.lua
+json/encode/array.lua
+json/encode/calls.lua
+json/encode/number.lua
+json/encode/object.lua
+json/encode/others.lua
+json/encode/output.lua
+json/encode/output_utility.lua
+json/encode/strings.lua
+json/util.lua
+ltn12.lua
+lxp
+lxp/lom.lua
+mime.lua
+re.lua
+socket
+socket.lua
+socket/ftp.lua
+socket/headers.lua
+socket/http.lua
+socket/smtp.lua
+socket/tp.lua
+socket/url.lua
+```
+
+### ? test operator or wild card
+
+Within certain expressions, the ? indicates a test for a condition.
+
+```bash linenums="1"
+> var0=100
+> (( var1 = var0 < 98 ? 9 : 21 ))
+> echo $var1
+21
+```
+
+The ? character serves as a single-character "wild card" for filename expansion in globbing, as well as representing one character in an extended regular expression.
+
+```bash linenums="1"
+> for f in jso?; do echo $f; done
+json
+
+> find $PWD -maxdepth 1 -regextype posix-extended -iregex ".*/jso?n"
+/home/wenijinew/json
+/home/wenijinew/jsn
+```
