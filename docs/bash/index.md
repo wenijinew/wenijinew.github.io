@@ -548,3 +548,201 @@ json
 /home/wenijinew/json
 /home/wenijinew/jsn
 ```
+
+### $ Variable substitution (Contents of a variable)
+
+A $ prefixing a variable name indicates the value the variable holds.
+
+```bash linenums="1"
+> var="John"
+> echo "Hello, $var"
+Hello, John
+```
+
+In a regular expression, a "$" addresses the end of a line of text.
+
+```bash linenums="1"
+> cat 80d58021.txt | grep -E '.*8'
+205332138
+205334378
+205335842
+205336822
+205336828
+205338718
+205341138
+205341582
+
+> cat 80d58021.txt | grep -E '.*8$'
+205332138
+205334378
+205336828
+205338718
+205341138
+```
+
+Parameter substitution: `${parameter}` Same as $parameter, i.e., value of the variable parameter. In certain contexts, only the less ambiguous ${parameter} form works.
+
+```bash linenums="1"
+> name="John"
+> id="${name}-on-${HOSTNAME}"
+> echo "$id"
+John-on-B.W
+> id="$name-on-${HOSTNAME}"
+> echo "$id"
+John-on-B.W
+> id="${name}on-${HOSTNAME}"
+> echo "$id"
+Johnon-B.W
+> id="$nameon-${HOSTNAME}"
+> echo "$id"
+-B.W
+```
+
+Positional parameter: `$*` - All of the positional parameters, seen as a single word, `$@` - Same as `$*`, but each parameter is a quoted string, that is, the parameters are passed on intact, without interpretation or expansion. This means, among other things, that each parameter in the argument list is seen as a separate word.
+
+!!! note "Usage of $\* and $@"
+
+    `$*` _must_ be quoted, `$@` _should_ be quoted
+
+Exit status variable: `$?`. The `$?` variable holds the exit status of a command, a function, or of the script itself.
+
+Process ID variable: `$$`. The `$$` variable holds the process ID of the script in which it appears.
+
+### `()` Command group
+
+```bash linenums="1"
+> (var="Hello, World"; echo $var)
+Hello, World
+
+> echo "$(which ldd)"
+/usr/bin/ldd
+```
+
+!!! warning "A listing of commands within parentheses starts a subshell"
+
+    Variables inside parentheses, within the subshell, are not visible to the rest of the script. The parent process, the script, cannot read variables created in the child process, the subshell.
+
+    ```bash linenums="1"
+    > name="John"
+    > echo "Hello, $name"
+    Hello, John
+    > (name="Bruce"; echo "Hello, $name")
+    Hello, Bruce
+    > echo "Hello, $name"
+    Hello, John
+    ```
+
+`()` can also be used to initialize an array.
+
+```bash linenums="1"
+> books=("To Kill a Mockingbird" "Pride and Prejudice" "1984")
+> for book in "${books[@]}"; do echo $book; done
+To Kill a Mockingbird
+Pride and Prejudice
+1984
+```
+
+### `{}` Brace expansion
+
+```bash linenums="1"
+> echo \'{These,words,are,quoted}\'
+'These' 'words' 'are' 'quoted'
+
+> echo \"{These,words,are,quoted}\"
+"These" "words" "are" "quoted"
+
+# Concatenates the files file1, file2, and file3 into combined_file.
+> cat {file1,file2,file3} > combined_file
+
+# Copy 6f63811b.txt to 6f63811b.bak - Is it a magic?
+> cp 6f63811b.{txt,bak}
+> ls 6f63811b*
+6f63811b.bak  6f63811b.txt
+```
+
+!!! warning "No spaces allowed within the braces"
+
+    _Unless_ the spaces are quoted or escaped
+
+    ```bash linenums="1"
+    > echo {file1,file2}\ :{\ A," B",' C'}
+    file1 : A file1 : B file1 : C file2 : A file2 : B file2 : C
+
+    # no escape for space before A
+    > echo {file1,file2}\ :{ A," B",' C'}
+    file1 :{ file2 :{ A, B, C}
+
+    # no escape for space before A, zsh will complain with the error
+    > echo {file1,file2}\ :{ A," B",' C'}
+    zsh: parse error near `}'
+    ```
+
+Extended Brace expansion: {a..z}, {0..10}
+
+```bash linenums="1"
+> echo {a..z}
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+
+> echo {0..10}
+1 2 3 4 5 6 7 8 9 10
+```
+
+Block of code {code here}. Also referred to as an inline group, this construct, in effect, creates an anonymous function (a function without a name).
+However, unlike in a "standard" function, the variables inside a code block remain visible to the remainder of the script.
+
+```bash linenums="1"
+> { local var; var="World"; }
+bash: {local: command not found
+
+> { var="World"; }
+> echo $var
+World
+```
+
+!!! warning "Space should be kept after { and before }"
+
+    ```bash linenums="1"
+    > {var="World";}
+    bash: syntax error near unexpected token `}'
+    ```
+
+!!! warning "; should be used after statement"
+
+    Otherwise, it's not interpretable by bash and have to terminate by `Ctrl+C`
+
+    ```bash linenums="1"
+    > { var="World" }
+    >
+    > ^C
+    > { var="World"; }
+    > echo "$var"
+    World
+    > { var="World"; action="Print" }
+    >
+    > ^C
+    > { var="World"; action="Print"; }
+    > echo "$var $action"
+    World Print
+    ```
+
+The code block enclosed in braces may have I/O redirected to and from it.
+
+    Unlike a command group within (parentheses), as above, a code block enclosed by {braces} will not normally launch a subshell.
+
+Placeholder for text. Used after xargs -i (replace strings option). The {} double curly brackets are a placeholder for output text.
+
+```bash linenums="1"
+> find $PWD -type f -regextype posix-extended -iregex '.*421.txt' | xargs -i echo '{}'
+/user/wenijinew/log/3167c421.txt
+/user/wenijinew/log/521e8421.txt
+```
+
+Path name which is mostly used in `find` command. It's not a shell builtin.
+
+```bash linenums="1"
+> find $PWD -type f -regextype posix-extended -iregex '.*421.txt' -exec wc -l {} \;
+24 /user/wenijinew/log/3167c421.txt
+7 /user/wenijinew/log/521e8421.txt
+```
+
+    The ";" ends the -exec option of a find command sequence. It needs to be escaped to protect it from interpretation by the shell.
