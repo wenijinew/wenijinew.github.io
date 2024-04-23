@@ -746,3 +746,42 @@ Path name which is mostly used in `find` command. It's not a shell builtin.
 ```
 
     The ";" ends the -exec option of a find command sequence. It needs to be escaped to protect it from interpretation by the shell.
+
+### `[]` Test operator
+
+Test expression between `[ ]`. Note that [ is part of the shell builtin test (and a synonym for it), not a link to the external command `/usr/bin/test`.
+
+Test expression between `[[]]`. More flexible than the single-bracket `[ ]` test, this is a shell keyword.
+
+Array element. In the context of an array, brackets set off the numbering of each element of that array.
+
+```bash linenums="1"
+> books=("To Kill a Mockingbird" "Pride and Prejudice" "The Great Gatsby")
+> size=${#books[@]}
+> index=0
+> while [ $index -lt $size  ];do echo ${books[$index]}; ((index++)); done
+To Kill a Mockingbird
+Pride and Prejudice
+The Great Gatsby
+```
+
+Range of characters. As part of a regular expression, brackets delineate a range of characters to match.
+
+```bash linenums="1"
+> cat 6682cae1.txt | grep -iEo '[0-9:\-]{4,}\ [0-9:\-]{4,}' | head -2
+2024-04-23 10:14:11
+2024-04-23 10:14:12
+```
+
+Integer expansion. Evaluate integer expression between $[ ].
+
+```bash linenums="1"
+> echo $[1+2]
+3
+> echo $[1+2+100]
+103
+> echo $[$index + $size]
+6
+```
+
+Note that this usage (`$[]`) is deprecated, and has been replaced by the `(( ... ))` construct.
