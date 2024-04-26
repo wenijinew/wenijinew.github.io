@@ -1,13 +1,3 @@
-## [Visual Studio Code](/vscode)
+# What to write here?
 
-## [Tmux](/tmux)
-
-## [Python](/python)
-
-## [Java](/java)
-
-## [Git](/git)
-
-## [GitHub](/github)
-
-## [Bash](/bash)
+I put everything I learnt in daily work and life in [note](/note).

@@ -1,24 +1,6 @@
-/*
-CSS file to provide common style variables, classes, and customization for JCAT test result report (start from !!! JCAT Report Customization !!!).
-
-More information about color, theme, components and design principles, please refer to EDS: https://eds.internal.ericsson.com/
-
-@author: bruce.wen@ericsson.com
-v0.1
-2022-01-13
-
-Usage:
-Install "stylus" browser extension, and create new style, then paste content of this file into "code" text field, then fill 'https://(.*)/jcat/(.*)' in "Applied for" in bottom part - select 'URLs matching the regexp'.
-*/
 @charset "UTF-8";
-/**********************************************************
-common part:
-global variables and basic common classes
-**********************************************************/
-/*global variables:
-define reusable variables and reuse for specific scenarios
-*/
-:root {
+
+:root > * {
   /*definition of color codes*/
   --gray_05: #0c0c0c;
   --gray_09: #181818;
@@ -31,11 +13,15 @@ define reusable variables and reuse for specific scenarios
   --gray_76: #d7d7d7;
   --gray_95: #f2f2f2;
 
-  --blue_30: #005499;
-  --blue_40: #0062b3;
-  --blue_50: #008cff;
-  --blue_51: #1e90ff;
-  --blue_60: #9ad1ff;
+  --blue_20: #181920;
+  --blue_30: #23252e;
+  --blue_40: #393d4a;
+  --blue_50: #444958;
+  --blue_60: #aab0be;
+  --blue_70: #d5d8df;
+  --blue_51: #4d73ff;
+  --blue_61: #6787ff;
+  --blue_71: #819bff;
 
   /*red 10-60 are for bg color, red 110-160 are for fg color*/
   --red_5: #3f0000; /*very dark red*/
@@ -60,7 +46,9 @@ define reusable variables and reuse for specific scenarios
   --orange_50: #e66e19;
   --orange_60: #eb8b47;
   --orange_65: #ee9a5e;
-  --orange_90: #ffe4b5;
+  --orange_70: #ffa500;
+  --orange_80: #ffae1a;
+  --orange_90: #ffc967;
 
   --yellow_50: #808000;
 
@@ -70,7 +58,7 @@ define reusable variables and reuse for specific scenarios
   --purple_48: #8e45b0;
 
   /*definition of color usage scenarios*/
-  --default_font_size: 13x;
+  --default_font_size: 13px;
   --code_font_size: 15px;
 
   --fg_default: var(--gray_76);
@@ -117,6 +105,7 @@ define reusable variables and reuse for specific scenarios
   --fg_skip: #f6f511;
   --fg_passed: #7cfc00;
   --bg_highlight: #cdcd08;
+  --line_highlight: #8d4040cc;
   --height_tr_head: 45px;
   --height_tr_special: 50px;
 
@@ -125,8 +114,9 @@ define reusable variables and reuse for specific scenarios
   --default_border_radius: 6px;
   --default_border_size: 0.5px;
 
-  --default_font_family: "Roboto";
-  --font_family_code: "Roboto Mono";
+  --default_font_family: "Ericsson Hilda", Arial, Helvetica, Sans-serif, Courier,
+    Courier-New;
+  --font_family_code: "Roboto Mono", "courier", "courier-new";
   --footbar_height: 35px;
   --foot_padding: 15px;
 
@@ -160,6 +150,21 @@ define reusable variables and reuse for specific scenarios
   --pagination_button_height: 32px;
   --testlog_row_height: var(--tr_height_45);
   --table_header_height: 50px;
+
+  /*material theme of mkdocs*/
+  --md-typeset-a-color: var(--blue_51);
+  --md-primary-fg-color: var(--blue_30);
+  --md-primary-fg-color--dark: var(--blue_20);
+  --md-primary-fg-color--light: var(--blue_40);
+  --md-primary-bg-color: var(--blue_60);
+  --md-primary-bg-color--dark: var(--blue_70);
+  --md-primary-bg-color--light: var(--blue_70);
+  --md-code-hl-color: var(--line_highlight);
+  --md-footer-fg-color: var(--gray_68);
+}
+
+[data-md-color-scheme="slate"][data-md-color-primary="indigo"] {
+  --md-typeset-a-color: var(--blue_71);
 }
 
 /* -------------------------------------------------------------------
@@ -170,22 +175,22 @@ SECTION: Body and Paragraph and Blocks
 }
 
 .success {
-    color: #15d147 !important;
+  color: #15d147 !important;
 }
 
-.md-typeset h1{
-    font-size:40px !important;
-    color: orange !important;
+.md-typeset h1 {
+  font-size: 40px !important;
+  color: orange !important;
 }
-.md-typeset h2{
-    font-size:30px !important;
-    color: #875aef !important;
+.md-typeset h2 {
+  font-size: 30px !important;
+  color: #875aef !important;
 }
-.md-typeset h3{
-    font-size:24px !important;
-    color: green !important;
+.md-typeset h3 {
+  font-size: 24px !important;
+  color: green !important;
 }
-.md-typeset h4{
-    font-size:20px !important;
-    color: violet !important;
+.md-typeset h4 {
+  font-size: 20px !important;
+  color: violet !important;
 }
