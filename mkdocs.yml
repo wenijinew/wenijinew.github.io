@@ -1,5 +1,8 @@
-site_name: B.W
+repo_name: Bruce Wen's Notes
+repo_url: https://github.com/wenijinew/wenijinew.github.io
+edit_uri: edit/main/docs/
 
+site_name: Bruce Wen's Notes
 
 extra_css:
   - "css/extra.css"
@@ -10,16 +13,20 @@ theme:
     code: "Roboto Mono"
   name:
         material
+  custom_dir: docs/overrides
   features:
         - search.suggest
         - search.highlight
+        - content.action.edit
         - content.code.copy
         - content.code.annotate
         - content.code.select
         - content.footnote.tooltips
         - navigation.expand
         - navigation.top
+        - navigation.footer
         - toc.follow
+        - announce.dismiss
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
