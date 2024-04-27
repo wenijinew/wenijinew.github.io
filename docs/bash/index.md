@@ -785,3 +785,44 @@ Integer expansion. Evaluate integer expression between $[ ].
 ```
 
 Note that this usage (`$[]`) is deprecated, and has been replaced by the `(( ... ))` construct.
+
+### `(())` Integer Expansion
+
+Expand and evaluate integer expression between `(())`.
+
+```bash linenums="1"
+# how many sections per year
+> echo $((60 * 60 * 24 * 365))
+31536000
+```
+
+### > &> >& >> < <> Redirection
+
+scriptname >filename redirects the output of scriptname to file filename. Overwrite filename if it already exists.
+
+command &>filename redirects both the stdout and the stderr of command to filename.
+This is useful for suppressing output when testing for a condition. For example, let us test whether a certain command exists.
+
+```bash linenums="1"
+> type bogus_command &>/dev/null
+> echo $?
+1
+```
+
+In a script, it can be used like this:
+
+```bash linenums="1"
+command_test () { type "$1" &>/dev/null; }
+# ^
+cmd=rmdir # Legitimate command.
+command_test $cmd; echo $? # 0
+cmd=bogus_command # Illegitimate command
+command_test $cmd; echo $? # 1
+```
+
+`command >&2` redirects stdout of `command` to `stderr`.
+
+`scriptname >>filename` appends the output of `scriptname` to file `filename`. If
+`filename` does not already exist, it is created.
+
+`[i]<>filename` opens file `filename` for reading and writing, and assigns file descriptor `i` to it. If `filename` does not exist, it is created.

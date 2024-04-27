@@ -65,3 +65,7 @@ Finally, I fixed it with the below configuration:
     }
 },
 ```
+
+## MkDocs
+
+MkDocs is a documentation system for Python projects. It is a great tool for creating professional-looking documentation websites with ease. MkDocs uses Markdown, a simple and readable syntax for writing text, which makes it easy to write and maintain documentation. With MkDocs, you can create a documentation site with just a few configuration files and Markdown files. The resulting site is beautifully formatted and includes features like a search bar, table of contents, and navigation menu. MkDocs is highly customizable and can be deployed to various hosting platforms, making it a popular choice for Python projects.
