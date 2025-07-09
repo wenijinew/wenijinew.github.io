@@ -1,0 +1,31 @@
+---
+name: pr
+on:
+  push:
+    branches:
+      - VC
+jobs:
+  create-pull-request:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: 'main'
+          title: 'Automated PR: ${{ github.ref_name }} changes'
+          body: |
+            This pull request was automatically created by a GitHub Action.
+            It contains changes from the branch `${{ github.ref_name }}`.
+          commit-message: 'feat: Automated changes from ${{ github.ref_name }}'
+      - name: Check outputs
+        if: ${{ steps.cpr.outputs.pull-request-number }}
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
