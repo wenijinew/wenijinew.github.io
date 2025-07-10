@@ -16,7 +16,7 @@
   --blue_20: #181920;
   --blue_30: #23252e;
   --blue_40: #393d4a;
-  --blue_50: #444958;
+  --blue_50: #617fd8;
   --blue_60: #aab0be;
   --blue_70: #d5d8df;
   --blue_51: #4d73ff;
@@ -105,7 +105,7 @@
   --fg_skip: #f6f511;
   --fg_passed: #7cfc00;
   --bg_highlight: #cdcd08;
-  --line_highlight: #8d4040cc;
+  --line_highlight: #8d4040;
   --height_tr_head: 45px;
   --height_tr_special: 50px;
 
@@ -114,8 +114,8 @@
   --default_border_radius: 6px;
   --default_border_size: 0.5px;
 
-  --default_font_family: "Ericsson Hilda", Arial, Helvetica, Sans-serif, Courier,
-    Courier-New;
+  --default_font_family:
+    "Ericsson Hilda", Arial, Helvetica, Sans-serif, Courier, Courier-New;
   --font_family_code: "Roboto Mono", "courier", "courier-new";
   --footbar_height: 35px;
   --foot_padding: 15px;
@@ -159,8 +159,12 @@
   --md-primary-bg-color: var(--blue_60);
   --md-primary-bg-color--dark: var(--blue_70);
   --md-primary-bg-color--light: var(--blue_70);
-  --md-code-hl-color: var(--line_highlight);
+  /*--md-code-hl-color:var(--line_highlight);*/
   --md-footer-fg-color: var(--gray_68);
+
+  /* Code color shades */
+  --md-code-fg-color: rgb(165, 182, 190);
+  --md-code-bg-color: var(--blue_40);
 }
 
 [data-md-color-scheme="slate"][data-md-color-primary="indigo"] {
@@ -170,27 +174,121 @@
 /* -------------------------------------------------------------------
 SECTION: Body and Paragraph and Blocks
  -------------------------------------------------------------------*/
-.important, b {
+.important {
   color: orange !important;
 }
 
-.success {
+em {
+  color: yellowgreen;
+}
+.warn {
+    color: #b3a800
+}
+.critical {
+    color: #b84a00
+}
+.fire {
+    color: #f83a00
+}
+.vc_buyin_ticker {
+    color: #239023 !important;
+}
+/*pd: positive divergence*/
+.vc_pd_ticker {
+    color: #b3b300 !important;
+}
+/*ics: increase */
+.vc_ics {
+    color: #8ab300 !important;
+}
+/*dcs: decrease */
+.vc_dcs {
+    color: #b38a00 !important;
+}
+/*gc: gold cross*/
+.vc_gc {
+    color: #438700 !important;
+}
+/*dc: death cross*/
+.vc_dc {
+    color: #D66A00 !important;
+}
+/*ts: three soldiers*/
+.vc_ts_ticker {
+    color: #5ab300 !important;
+}
+.vc_niu_ticker {
+    color: #6AD400 !important;
+}
+.vc_perf_ticker {
+    color: #00b3b3 !important;
+}
+.vc_perf_winner_ticker {
+    color: #28a528 !important;
+}
+.vc_perf_loser_ticker {
+    color: #ffa500 !important;
+}
+.vc_indicator_default {
+    color: #383838 !important;
+}
+.vc_fsl {
+    color: #397800 !important;
+}
+.vc_sd20 {
+    color: #397800 !important;
+}
+
+.success,
+.pass {
   color: #15d147 !important;
+}
+
+.md-content img {
+  border: 1px solid var(--blue_40);
+}
+
+img.twemoji {
+  border: none;
+}
+
+.md-typeset table:not(.highlighttable) {
+  display: inline-block;
+  margin-bottom: 0.1em;
+  padding: 2px;
+
+  th {
+    min-width: 68px;
+    padding: 8px;
+  }
+
+  td {
+    padding: 5px;
+  }
 }
 
 .md-typeset h1 {
   font-size: 40px !important;
   color: orange !important;
+  font-weight: normal !important;
 }
 .md-typeset h2 {
-  font-size: 30px !important;
+  font-size: 35px !important;
   color: #875aef !important;
+  font-weight: normal !important;
 }
 .md-typeset h3 {
-  font-size: 24px !important;
+  font-size: 30px !important;
   color: green !important;
+  font-weight: normal !important;
 }
 .md-typeset h4 {
-  font-size: 20px !important;
-  color: violet !important;
+  font-size: 25px !important;
+  color: #c251ce !important;
+  font-weight: normal !important;
+}
+
+/* tradingview-widget-container */
+#advanced-chart-widget, #news-widget {
+  height: 680px;
 }
