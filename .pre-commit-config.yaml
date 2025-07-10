@@ -8,6 +8,14 @@ repos:
       - id: trailing-whitespace
       - id: end-of-file-fixer
       - id: check-added-large-files
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0 # Use the latest stable version
+    hooks:
+      - id: mixed-line-ending
+        args: [--fix=lf] # This is the key: convert all line endings to LF (Unix style)
+        # You can also use --fix=crlf to convert all to CRLF (Windows style)
+        # Or --fix=auto to let pre-commit decide based on the majority line ending in the file.
+        # --fix=lf is generally recommended for cross-platform projects stored in Git.
   - repo: local
     hooks:
       - id: pylint
@@ -28,11 +36,3 @@ repos:
         language: system
         types: [sh, csh]
         args: ["-i", "SC2154"]
-  - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0 # Use the latest stable version
-    hooks:
-      - id: mixed-line-ending
-        args: [--fix=lf] # This is the key: convert all line endings to LF (Unix style)
-        # You can also use --fix=crlf to convert all to CRLF (Windows style)
-        # Or --fix=auto to let pre-commit decide based on the majority line ending in the file.
-        # --fix=lf is generally recommended for cross-platform projects stored in Git.
