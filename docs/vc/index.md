@@ -140,7 +140,7 @@ hide:
               <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js" async>
                 {
                   "autosize": true,
-                  "symbol": "OMXSTO:MVIR",
+                  "symbol": "NGM:PHYR.B",
                   "timezone": "Etc/UTC",
                   "theme": "dark",
                   "style": "1",
@@ -150,6 +150,96 @@ hide:
                   "hide_side_toolbar": false,
                   "allow_symbol_change": true,
                   "watchlist": [
+                    "NGM:PHYR.B",
+                    "OMXSTO:ORGC",
+                    "NGM:MBBAB",
+                    "OMXSTO:HAFNIO",
+                    "OMXSTO:EXS",
+                    "OMXSTO:GAPW_B",
+                    "OMXSTO:BULTEN",
+                    "OMXSTO:WAWIO",
+                    "NGM:SDET",
+                    "OMXSTO:NANEXA",
+                    "OMXSTO:PIERCE",
+                    "OMXSTO:AVT_B",
+                    "NGM:BRIX",
+                    "OMXSTO:MPCCO",
+                    "OMXSTO:OPTER",
+                    "OMXSTO:SSAB_A",
+                    "OMXSTO:ONCO",
+                    "OMXSTO:CHEF",
+                    "OMXSTO:ALM_PREF",
+                    "OMXSTO:TOBII",
+                    "OMXSTO:4C",
+                    "OMXSTO:BETCO",
+                    "OMXSTO:LYKO_A",
+                    "OMXSTO:ASMDEE_B",
+                    "OMXSTO:TRUE_B",
+                    "OMXSTO:ERIC_B",
+                    "OMXSTO:ITECH",
+                    "OMXSTO:ACAD",
+                    "OMXSTO:EPI_B",
+                    "OMXSTO:VER",
+                    "NASDAQ:CREV",
+                    "NASDAQ:ASST",
+                    "NASDAQ:ELPW",
+                    "NASDAQ:AMST",
+                    "NASDAQ:BTOG",
+                    "NASDAQ:ENGS",
+                    "NASDAQ:MDIA",
+                    "NASDAQ:KITT",
+                    "NASDAQ:PMAX",
+                    "NASDAQ:PET",
+                    "NASDAQ:TRNR",
+                    "NASDAQ:SHOT",
+                    "NASDAQ:IRBT",
+                    "NYSE:WOLF",
+                    "NASDAQ:VVPR",
+                    "NASDAQ:GDHG",
+                    "NASDAQ:CGTX",
+                    "NASDAQ:SYTA",
+                    "NASDAQ:KLTO",
+                    "NASDAQ:STFS",
+                    "NASDAQ:KSCP",
+                    "NASDAQ:WKHS",
+                    "NASDAQ:MIST",
+                    "NASDAQ:VTGN",
+                    "NASDAQ:GFAI",
+                    "NASDAQ:PPTA",
+                    "NASDAQ:CLOV",
+                    "NASDAQ:ZVRA",
+                    "AMEX:UAVS",
+                    "NASDAQ:FLUX",
+                    "SZSE:002354",
+                    "SSE:603822",
+                    "SZSE:001387",
+                    "SZSE:002395",
+                    "SZSE:002285",
+                    "SZSE:000819",
+                    "SZSE:000014",
+                    "SSE:600550",
+                    "SZSE:002095",
+                    "SZSE:002636",
+                    "SSE:600807",
+                    "SZSE:000011",
+                    "SZSE:002688",
+                    "SSE:600748",
+                    "SZSE:002256",
+                    "SZSE:002094",
+                    "SSE:600683",
+                    "SSE:605066",
+                    "SZSE:002735",
+                    "SZSE:001356",
+                    "SZSE:001268",
+                    "SZSE:002153",
+                    "SZSE:000802",
+                    "SSE:600986",
+                    "SSE:603086",
+                    "SZSE:000560",
+                    "SSE:603062",
+                    "SSE:603011",
+                    "SZSE:002264",
+                    "SZSE:000753",
                     "OMXSTO:MVIR",
                     "OMXSTO:ACTI",
                     "OMXSTO:LPGO",
@@ -159,10 +249,8 @@ hide:
                     "OMXSTO:BAHN_B",
                     "OMXSTO:ALLEI",
                     "OMXSTO:APOTEA",
-                    "OMXSTO:OPTER",
                     "OMXSTO:PDX",
                     "OMXSTO:GETI_B",
-                    "OMXSTO:NANEXA",
                     "OMXSTO:SINT",
                     "OMXSTO:FG",
                     "OMXSTO:DOM",
@@ -170,8 +258,6 @@ hide:
                     "OMXSTO:PNDX_B",
                     "OMXSTO:HUMBLE",
                     "OMXSTO:NELLY",
-                    "OMXSTO:ERIC_B",
-                    "OMXSTO:LYKO_A",
                     "OMXSTO:STORY_B",
                     "OMXSTO:UTG",
                     "OMXSTO:BERNER_B",
@@ -186,7 +272,6 @@ hide:
                     "NASDAQ:BTCS",
                     "NASDAQ:BSLK",
                     "NASDAQ:LGVN",
-                    "NASDAQ:WKHS",
                     "NASDAQ:SOBR",
                     "NASDAQ:GAME",
                     "NASDAQ:ICU",
@@ -240,11 +325,9 @@ hide:
                     "SSE:600141",
                     "SZSE:001390",
                     "SSE:603778",
-                    "OMXSTO:ONCO",
                     "OMXSTO:OBSE",
                     "OMXSTO:XPC",
                     "OMXSTO:CAT_B",
-                    "OMXSTO:VER",
                     "OMXSTO:FLAT_B",
                     "OMXSTO:SEZI",
                     "OMXSTO:BALCO",
@@ -258,10 +341,8 @@ hide:
                     "OMXSTO:NAVIGO_PREF",
                     "OMXSTO:MMGR_B",
                     "OMXSTO:SYNSAM",
-                    "OMXSTO:BETCO",
                     "OMXSTO:ENGCON_B",
                     "OMXSTO:HUM",
-                    "OMXSTO:BULTEN",
                     "OMXSTO:UNIBAP",
                     "OMXSTO:SF",
                     "OMXSTO:ARP",
@@ -283,7 +364,6 @@ hide:
                     "NASDAQ:KALA",
                     "NYSE:GROV",
                     "NASDAQ:DNTH",
-                    "NASDAQ:CREV",
                     "NASDAQ:SMSI",
                     "NASDAQ:PTIX",
                     "NASDAQ:AMOD",
@@ -306,7 +386,6 @@ hide:
                     "SZSE:002036",
                     "SSE:603801",
                     "SSE:603220",
-                    "SZSE:000819",
                     "SSE:600523",
                     "SZSE:000816",
                     "SSE:605136",
@@ -317,7 +396,6 @@ hide:
                     "SSE:600556",
                     "SZSE:002512",
                     "SZSE:000010",
-                    "SSE:603011",
                     "SZSE:002922",
                     "SZSE:002640",
                     "SZSE:000532",
@@ -356,7 +434,6 @@ hide:
                     "NASDAQ:ABVE",
                     "NASDAQ:QTTB",
                     "AMEX:AIRI",
-                    "NASDAQ:BTOG",
                     "NASDAQ:SNOA",
                     "NASDAQ:EBON",
                     "AMEX:IGC",
@@ -391,7 +468,6 @@ hide:
                     "SZSE:002674",
                     "SZSE:002902",
                     "SZSE:002120",
-                    "SZSE:000560",
                     "SSE:603719",
                     "SSE:601696",
                     "SSE:600622",
@@ -410,7 +486,6 @@ hide:
                     "SSE:603297",
                     "SZSE:002657",
                     "SZSE:002553",
-                    "SZSE:002264",
                     "SSE:603378",
                     "NGM:EDYOU",
                     "OMXSTO:NOSA",
@@ -426,12 +501,10 @@ hide:
                     "NGM:H100",
                     "OMXSTO:G5EN",
                     "OMXSTO:BEAMMW_B",
-                    "OMXSTO:HAFNIO",
                     "OMXSTO:ARISE",
                     "OMXSTO:INTEA_B",
                     "OMXSTO:K33",
                     "OMXSTO:ELKO",
-                    "OMXSTO:TOBII",
                     "NGM:VPAB.B",
                     "OMXSTO:NASO",
                     "OMXSTO:ALZ",
@@ -505,9 +578,7 @@ hide:
                     "OMXSTO:CRNO_B",
                     "OMXSTO:AQ",
                     "OMXSTO:NYAB",
-                    "OMXSTO:PIERCE",
                     "OMXSTO:KAR",
-                    "NGM:BRIX",
                     "OMXSTO:REJL_B",
                     "OMXSTO:GRANGX",
                     "OMXSTO:ORT_B",
@@ -602,7 +673,6 @@ hide:
                     "NASDAQ:SRM",
                     "NASDAQ:UPXI",
                     "NASDAQ:VERI",
-                    "NASDAQ:KITT",
                     "NASDAQ:SILO",
                     "NASDAQ:JDZG",
                     "NASDAQ:GBIO",
@@ -613,7 +683,6 @@ hide:
                     "NASDAQ:CISO",
                     "NASDAQ:CVRX",
                     "NASDAQ:SERV",
-                    "NASDAQ:SYTA",
                     "NASDAQ:QMCO",
                     "NASDAQ:ZBAI",
                     "NYSE:HLLY",
@@ -657,13 +726,11 @@ hide:
                     "OMXSTO:HANZA",
                     "OMXSTO:META",
                     "OMXSTO:INSTAL",
-                    "OMXSTO:CHEF",
                     "OMXSTO:FABG",
                     "OMXSTO:ALLIGO_B",
                     "OMXSTO:SCST",
                     "OMXSTO:GOMX",
                     "OMXSTO:EMBELL",
-                    "OMXSTO:AVT_B",
                     "OMXSTO:BETS_B",
                     "OMXSTO:HPOL_B",
                     "NASDAQ:ATNF",
@@ -685,7 +752,6 @@ hide:
                     "NASDAQ:XTIA",
                     "NASDAQ:HYPR",
                     "NYSE:AMBC",
-                    "NASDAQ:GFAI",
                     "NASDAQ:NVNO",
                     "NASDAQ:ECDA",
                     "AMEX:CYBN",
@@ -731,7 +797,6 @@ hide:
                     "OMXSTO:K2A_PREF",
                     "OMXSTO:EWRK",
                     "OMXSTO:CEVI",
-                    "OMXSTO:4C",
                     "OMXSTO:OSSD",
                     "OMXSTO:TELIA",
                     "OMXSTO:NCAB",
@@ -740,7 +805,6 @@ hide:
                     "NASDAQ:LMFA",
                     "NYSE:STEM",
                     "NASDAQ:CTNM",
-                    "AMEX:UAVS",
                     "NASDAQ:AIRG",
                     "NASDAQ:DEVS",
                     "AMEX:TGEN",
@@ -755,7 +819,6 @@ hide:
                     "NASDAQ:GPRO",
                     "NYSE:LVWR",
                     "NASDAQ:MGRX",
-                    "NASDAQ:KSCP",
                     "NASDAQ:MFH",
                     "NASDAQ:BLNK",
                     "NYSE:HESM",
@@ -803,7 +866,6 @@ hide:
                     "OMXSTO:NORION",
                     "NASDAQ:AIRE",
                     "NYSE:OPAD",
-                    "NASDAQ:PET",
                     "NASDAQ:TNFA",
                     "NASDAQ:CMND",
                     "NASDAQ:PALI",
@@ -824,7 +886,6 @@ hide:
                     "NYSE:S",
                     "NASDAQ:MOBX",
                     "NASDAQ:CDLX",
-                    "NASDAQ:SHOT",
                     "OTC:TLGYF",
                     "SZSE:002613",
                     "SSE:603477",
@@ -934,7 +995,6 @@ hide:
                     "NASDAQ:FATE",
                     "NASDAQ:LWLG",
                     "NYSE:BGS",
-                    "OMXSTO:ALM_PREF",
                     "OMXSTO:FPAR_A",
                     "NASDAQ:SHIM",
                     "NASDAQ:PPIH",
@@ -954,7 +1014,6 @@ hide:
                     "NASDAQ:GTI",
                     "NASDAQ:SUPN",
                     "NYSE:KSS",
-                    "NASDAQ:CLOV",
                     "NASDAQ:SRDX",
                     "NASDAQ:TARA",
                     "NASDAQ:MCBS",
@@ -988,7 +1047,6 @@ hide:
                     "NASDAQ:BITF",
                     "NASDAQ:GOVX",
                     "NASDAQ:PSTV",
-                    "NASDAQ:STFS",
                     "AMEX:GAU",
                     "NASDAQ:BSGM",
                     "NASDAQ:PACB",
@@ -1020,7 +1078,6 @@ hide:
                     "NASDAQ:SABS",
                     "NASDAQ:WILC",
                     "NYSE:FOUR/PA",
-                    "OMXSTO:ACAD",
                     "OMXSTO:OMXS30",
                     "SSE:000001",
                     "NASDAQ:NDX",
@@ -1066,9 +1123,119 @@ hide:
 
 <!--THE CONTENT BELOW THIS LINE IS AUTO-GENERATED BY VC MODULE-->
 
+<!--2025-07-23 00:52:17w-->
+
+## 07-23 00:52 :material-circle-medium: 2025-07-07 :material-circle-medium: 01
+---
+
+> Market: SE :material-circle-medium: Target Date: 2025-07-07 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-23 00:52:17
+
+|    | Ticker          |           RATE |   VPR |   VDR |   VP(M) | EMAT         |   RSI |   CGR |   MP |   SP | MT             |   FSL |   SD20 |
+|:----:|-----------------|----------------|-------|-------|---------|--------------|-------|-------|------|------|----------------|-------|--------|
+|<span class='vc_buyin_ticker'>  0 </span>| NGM:PHYR.B      |     6.9843e+07 |   122 |   617 |      11 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    94 |   221 |  377 |  384 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|
+|  1 | OMXSTO:ORGC     | 73745          |     1 |  4937 |       2 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    52 |     4 |    2 |  -12 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_sd20'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'>  2 </span>| NGM:MBBAB       | 67273          |    25 |    71 |       9 |<span title='[EMA50TO100]' class='vc_gc'>:material-circle:</span>|    56 |    13 |  307 |  275 |<span title='[DCS]' class='vc_dcs'>:material-format-font-size-decrease:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|
+|  3 | OMXSTO:HAFNIO   |  7995          |     0 |  9030 |       2 |<span title='[EMA10TO50]' class='vc_gc'>:material-circle:</span>|    56 |     5 |    4 |   26 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|<span title='15' class='vc_sd20'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'>  4 </span>| OMXSTO:EXS      |  2980          |     0 |  4247 |       4 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|<span class='warn'>72</span>|     3 |   14 |   35 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|
+|  5 | OMXSTO:GAPW_B   |  1626          |     0 |   509 |       1 |<span title='[EMA10TO20]' class='vc_indicator_default'>:material-circle:</span>|    53 |     2 |    2 |   -3 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_sd20'>:material-circle:</span>|
+|  6 | OMXSTO:BULTEN   |   995          |     0 |   248 |       4 |<span title='[EMA10TO50]' class='vc_gc'>:material-circle:</span>|    59 |     3 |    8 |   -1 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_sd20'>:material-circle:</span>|
+|  7 | OMXSTO:WAWIO    |   825          |     0 |  9041 |       2 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    55 |     2 |    3 |   21 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_sd20'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'>  8 </span>| NGM:SDET        |   473          |     1 |   109 |       1 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|<span class='warn'>78</span>|    19 |   74 |  138 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|
+|  9 | OMXSTO:NANEXA   |   451          |     1 |    67 |       2 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    56 |     8 |    9 |  112 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_sd20'>:material-circle:</span>|
+| 10 | OMXSTO:PIERCE   |   435          |     0 |   136 |       1 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    58 |     2 |    8 |    0 |<span title='[GCZ, ICS]' class='vc_gc'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|
+| 11 | OMXSTO:AVT_B    |   227          |     0 |  1021 |       2 |<span title='[EMA10TO50]' class='vc_gc'>:material-circle:</span>|    56 |     2 |   -8 |   17 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|<span title='1' class='vc_sd20'>:material-circle:</span>|
+| 12 | NGM:BRIX        |   194          |     0 |   171 |       2 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    64 |     7 |   38 |  101 |<span title='[DCS]' class='vc_dcs'>:material-format-font-size-decrease:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|
+| 13 | OMXSTO:MPCCO    |   142          |     0 |   251 |       1 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    60 |     5 |    5 |   15 |<span title='[GC, GCZ, ICS]' class='vc_gc'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_sd20'>:material-circle:</span>|
+| 14 | OMXSTO:OPTER    |   110          |     0 |    49 |       1 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    58 |     1 |    2 |   -0 |<span title='[DCS]' class='vc_dcs'>:material-format-font-size-decrease:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_sd20'>:material-circle:</span>|
+| 15 | OMXSTO:SSAB_A   |    77          |     0 |    23 |      68 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    52 |     2 |   -4 |    7 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='21' class='vc_fsl'>:material-circle:</span>|<span title='21' class='vc_sd20'>:material-circle:</span>|
+| 16 | OMXSTO:ONCO     |    74          |     0 |   112 |       2 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    65 |     3 |   14 |    2 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|
+| 17 | OMXSTO:CHEF     |    39          |     0 |    81 |       2 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    62 |     2 |    1 |   50 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|
+| 18 | OMXSTO:ALM_PREF |    38          |     0 |   183 |       3 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    59 |     1 |    2 |    6 |<span title='[DCS]' class='vc_dcs'>:material-format-font-size-decrease:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_sd20'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'> 19 </span>| OMXSTO:TOBII    |    30          |     1 |    50 |      16 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|<span class='warn'>78</span>|     1 |   41 |  216 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|
+| 20 | OMXSTO:4C       |    26          |     0 |    26 |       1 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    58 |     1 |   -1 |    1 |<span title='[GC, ICS]' class='vc_gc'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_sd20'>:material-circle:</span>|
+| 21 | OMXSTO:BETCO    |    23          |     0 |    72 |       6 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    55 |     2 |    6 |   32 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_sd20'>:material-circle:</span>|
+| 22 | OMXSTO:LYKO_A   |     9          |     0 |    74 |       1 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    68 |     3 |    9 |   26 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|
+| 23 | OMXSTO:ASMDEE_B |     8          |     0 |    86 |      24 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    54 |     1 |   -4 |   42 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_sd20'>:material-circle:</span>|
+| 24 | OMXSTO:TRUE_B   |     7          |     0 |    59 |      39 |<span title='[EMA10TO20]' class='vc_indicator_default'>:material-circle:</span>|    56 |     1 |   -4 |    5 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|<span title='3' class='vc_sd20'>:material-circle:</span>|
+| 25 | OMXSTO:ERIC_B   |     5          |     0 |    40 |     193 |<span title='[EMA10TO50]' class='vc_gc'>:material-circle:</span>|    55 |     1 |   -1 |   18 |<span title='[GCZ, ICS]' class='vc_gc'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|<span title='3' class='vc_sd20'>:material-circle:</span>|
+| 26 | OMXSTO:ITECH    |     4          |     0 |   146 |       2 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    57 |     1 |   -2 |   31 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|<span title='1' class='vc_sd20'>:material-circle:</span>|
+| 27 | OMXSTO:ACAD     |     3          |     0 |   112 |      13 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    59 |     1 |    4 |   17 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|
+| 28 | OMXSTO:EPI_B    |     2          |     0 |    16 |      17 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    50 |     1 |   -3 |   16 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='21' class='vc_fsl'>:material-circle:</span>|<span title='21' class='vc_sd20'>:material-circle:</span>|
+| 29 | OMXSTO:VER      |     2          |     0 |    43 |      18 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    49 |     2 |   -7 |    6 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|
+
+> Market: US :material-circle-medium: Target Date: 2025-07-07 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-23 00:52:34
+
+|    | Ticker      |             RATE |   VPR |   VDR |   VP(M) | EMAT                    |   RSI |   CGR |   MP |   SP | MT             |   FSL |   SD20 |
+|:----:|-------------|------------------|-------|-------|---------|-------------------------|-------|-------|------|------|----------------|-------|--------|
+|<span class='vc_buyin_ticker'>  0 </span>| NASDAQ:CREV |      7.97942e+08 |   125 |  9755 |       9 |<span title='[EMA10TO20, EMA10TO50]' class='vc_gc'>:material-circle:</span>|    65 |    31 |   33 |   55 |<span title='[GCZ, ICS]' class='vc_gc'>:material-circle:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'>  1 </span>| NASDAQ:ASST |      7.84836e+08 |   546 |  3362 |     632 |<span title='[EMA10TO50, EMA5TO10]' class='vc_gc'>:material-circle:</span>|    61 |    50 |    2 | 1348 |<span title='[GC, ICS]' class='vc_gc'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_sd20'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'>  2 </span>| NASDAQ:ELPW |      1.02027e+07 |    25 |  1316 |      24 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    56 |    60 |   88 |   88 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|
+|  3 | NASDAQ:AMST |      3.78908e+06 |    19 |  8898 |       3 |<span title='[EMA10TO20, EMA50TO100]' class='vc_gc'>:material-circle:</span>|    69 |    16 |   14 |   50 |<span title='[GC, GCZ, ICS]' class='vc_gc'>:material-circle:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'>  4 </span>| NASDAQ:BTOG |      2.74671e+06 |   466 |   324 |      69 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    78 |    28 |   77 |   23 |<span title='[GCZ, ICS]' class='vc_gc'>:material-circle:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'>  5 </span>| NASDAQ:ENGS |      2.17956e+06 |    30 | 92307 |      11 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    51 |     7 |  -16 |  -48 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'>  6 </span>| NASDAQ:MDIA |      1.30411e+06 |    22 |  3063 |      16 |<span title='[EMA10TO20, EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    63 |     9 |   29 |   21 |<span title='[GC, ICS]' class='vc_gc'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'>  7 </span>| NASDAQ:KITT |      1.04476e+06 |    11 |   735 |       4 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    62 |    18 |   15 |   14 |<span title='[GC, ICS]' class='vc_gc'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_sd20'>:material-circle:</span>|
+|  8 | NASDAQ:PMAX | 880571           |    63 |   242 |       4 |<span title='[EMA20TO50]' class='vc_gc'>:material-circle:</span>|    57 |    12 |   24 |   44 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'>  9 </span>| NASDAQ:PET  | 673667           |    48 |  1562 |       5 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    61 |    21 |   38 |   34 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'> 10 </span>| NASDAQ:TRNR | 520824           |    40 |   264 |       4 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    48 |    23 |  -26 |  -34 |<span title='[GC, ICS]' class='vc_gc'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'> 11 </span>| NASDAQ:SHOT | 473687           |     8 |   249 |       4 |<span title='[EMA10TO50]' class='vc_gc'>:material-circle:</span>|    67 |    23 |   81 |    6 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|
+| 12 | NASDAQ:IRBT | 338595           |    13 |   291 |      15 |<span title='[EMA10TO50]' class='vc_gc'>:material-circle:</span>|    61 |    14 |    8 |   68 |<span title='[GC, ICS]' class='vc_gc'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'> 13 </span>| NYSE:WOLF   | 264176           |   291 |   116 |    1045 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    66 |    60 |   53 |  -15 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'> 14 </span>| NASDAQ:VVPR | 176217           |    14 |    62 |       8 |<span title='[EMA10TO50, EMA5TO10]' class='vc_gc'>:material-circle:</span>|    60 |    26 |   -5 |   55 |<span title='[GC, ICS]' class='vc_gc'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'> 15 </span>| NASDAQ:GDHG | 143640           |   110 |   126 |       5 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    37 |    20 |   -1 |  -83 |<span title='[DCS]' class='vc_dcs'>:material-format-font-size-decrease:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'> 16 </span>| NASDAQ:CGTX | 128484           |    53 |   126 |      19 |<span title='[EMA10TO50]' class='vc_gc'>:material-circle:</span>|    80 |    29 |  106 |   60 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'> 17 </span>| NASDAQ:SYTA | 128342           |    72 |   179 |      28 |<span title='[EMA20TO50]' class='vc_gc'>:material-circle:</span>|    65 |    24 |   14 |  136 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|
+| 18 | NASDAQ:KLTO | 101818           |    21 |    63 |       9 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    56 |    20 |  533 |  664 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|
+| 19 | NASDAQ:STFS |  99761           |    20 |   131 |       3 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    57 |     7 |   -3 |   17 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_sd20'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'> 20 </span>| NASDAQ:KSCP |  93730           |    14 |   178 |       6 |<span title='[EMA10TO20, EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    70 |    22 |   12 |  135 |<span title='[GC, ICS]' class='vc_gc'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'> 21 </span>| NASDAQ:WKHS |  75759           |    48 |   353 |       8 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|<span class='critical'>80</span>|    20 |   92 |   31 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'> 22 </span>| NASDAQ:MIST |  63837           |     4 |   839 |       5 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|<span class='warn'>75</span>|    13 |   23 |  206 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|
+| 23 | NASDAQ:VTGN |  57299           |     2 |   530 |       1 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    52 |     8 |   -7 |   -1 |<span title='[GC, ICS]' class='vc_gc'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|
+| 24 | NASDAQ:GFAI |  44033           |     7 |   384 |       2 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    60 |     3 |    6 |   34 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|
+| 25 | NASDAQ:PPTA |  30254           |     5 |   395 |      73 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    48 |     5 |  -24 |   37 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'> 26 </span>| NASDAQ:CLOV |  29266           |     4 |   399 |      62 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    48 |     8 |   -5 |  -16 |<span title='[GC, ICS]' class='vc_gc'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'> 27 </span>| NASDAQ:ZVRA |  28507           |     9 |   316 |      55 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|<span class='warn'>79</span>|    15 |   26 |   55 |<span title='[GC, ICS]' class='vc_gc'>:material-circle:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|
+| 28 | AMEX:UAVS   |  27321           |    12 |   290 |       2 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    52 |     2 |    3 |   12 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_sd20'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'> 29 </span>| NASDAQ:FLUX |  26543           |     4 |   469 |       2 |<span title='[EMA20TO50]' class='vc_gc'>:material-circle:</span>|<span class='critical'>81</span>|    19 |   55 |   63 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|
+
+> Market: CN :material-circle-medium: Target Date: 2025-07-07 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-23 00:53:40
+
+|    | Ticker      |             RATE |   VPR |   VDR |   VP(M) | EMAT                             |   RSI |   CGR |   MP |   SP | MT             |   FSL |   SD20 |
+|:----:|-------------|------------------|-------|-------|---------|----------------------------------|-------|-------|------|------|----------------|-------|--------|
+|  0 | SZSE:002354 |      1.40833e+06 |    22 |   758 |    2476 |<span title='[EMA10TO20, EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    60 |     8 |    3 |   35 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|<span title='15' class='vc_sd20'>:material-circle:</span>|
+|  1 | SSE:603822  | 201396           |     6 |   309 |     270 |<span title='[EMA10TO20, EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    58 |     9 |    6 |   12 |<span title='[GC, ICS]' class='vc_gc'>:material-circle:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|<span title='15' class='vc_sd20'>:material-circle:</span>|
+|  2 | SZSE:001387 | 189846           |    14 |   882 |     201 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    69 |     5 |    5 |   22 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|
+|  3 | SZSE:002395 | 180840           |     7 |   253 |     347 |<span title='[EMA10TO20]' class='vc_indicator_default'>:material-circle:</span>|    69 |    10 |    4 |   19 |<span title='[GCZ, ICS, GC]' class='vc_gc'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|
+|  4 | SZSE:002285 | 133327           |     4 |   174 |     206 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    63 |     5 |    4 |   12 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='21' class='vc_fsl'>:material-circle:</span>|<span title='21' class='vc_indicator_default'>:material-circle:</span>|
+|  5 | SZSE:000819 | 118953           |     4 |   263 |     214 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    58 |     4 |    4 |   14 |<span title='[DCS]' class='vc_dcs'>:material-format-font-size-decrease:</span>|<span title='21' class='vc_fsl'>:material-circle:</span>|<span title='21' class='vc_sd20'>:material-circle:</span>|
+|  6 | SZSE:000014 | 100130           |     7 |   213 |     204 |<span title='[EMA10TO20, EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    65 |    10 |    8 |   29 |<span title='[GC, ICS]' class='vc_gc'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|
+|  7 | SSE:600550  |  89388           |     8 |   377 |    1391 |<span title='[EMA10TO20]' class='vc_indicator_default'>:material-circle:</span>|    61 |     8 |    2 |   22 |<span title='[GCZ, ICS]' class='vc_gc'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|
+|  8 | SZSE:002095 |  84362           |     7 |   210 |     402 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    62 |    10 |   11 |   47 |<span title='[GC, ICS]' class='vc_gc'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'>  9 </span>| SZSE:002636 |  72024           |    11 |  1208 |    1042 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|<span class='critical'>85</span>|    11 |   42 |   70 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'> 10 </span>| SSE:600807  |  67309           |     5 |   154 |     135 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|<span class='warn'>71</span>|    11 |    6 |   46 |<span title='[GC, ICS]' class='vc_gc'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|
+| 11 | SZSE:000011 |  67256           |     2 |   226 |      96 |<span title='[EMA10TO20, EMA10TO50, EMA5TO10]' class='vc_gc'>:material-circle:</span>|    58 |     3 |    1 |   13 |<span title='[GCZ, ICS, GC]' class='vc_gc'>:material-circle:</span>|<span title='21' class='vc_fsl'>:material-circle:</span>|<span title='21' class='vc_sd20'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'> 12 </span>| SZSE:002688 |  64267           |    11 |   249 |     570 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    59 |     6 |    5 |   -8 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_sd20'>:material-circle:</span>|
+| 13 | SSE:600748  |  59933           |     2 |   210 |     116 |<span title='[EMA10TO20]' class='vc_indicator_default'>:material-circle:</span>|    62 |     4 |    2 |    9 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='21' class='vc_fsl'>:material-circle:</span>|<span title='21' class='vc_sd20'>:material-circle:</span>|
+| 14 | SZSE:002256 |  57895           |     5 |   204 |     255 |<span title='[EMA10TO20, EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    58 |     4 |    1 |   22 |<span title='[GCZ, ICS, GC]' class='vc_gc'>:material-circle:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|<span title='15' class='vc_sd20'>:material-circle:</span>|
+| 15 | SZSE:002094 |  53530           |    25 |   126 |    1570 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    57 |     8 |   -1 |   68 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_sd20'>:material-circle:</span>|
+| 16 | SSE:600683  |  52109           |     4 |   209 |     108 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    64 |     5 |    5 |   19 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|
+| 17 | SSE:605066  |  51306           |     7 |   179 |     284 |<span title='[EMA10TO20, EMA10TO50, EMA5TO10]' class='vc_gc'>:material-circle:</span>|    57 |     4 |   -2 |   14 |<span title='[GCZ, ICS, GC]' class='vc_gc'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_sd20'>:material-circle:</span>|
+| 18 | SZSE:002735 |  43872           |    18 |    64 |    1047 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    54 |    10 |   -4 |   90 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_sd20'>:material-circle:</span>|
+| 19 | SZSE:001356 |  41260           |     6 |   486 |     521 |<span title='[EMA10TO20, EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    66 |     3 |    7 |  -12 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_sd20'>:material-circle:</span>|
+| 20 | SZSE:001268 |  38584           |     9 |   298 |     270 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    69 |    10 |   18 |   49 |<span title='[GC, ICS]' class='vc_gc'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|
+| 21 | SZSE:002153 |  36267           |     3 |   464 |     856 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    66 |     7 |    5 |   35 |<span title='[GC, ICS]' class='vc_gc'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|
+| 22 | SZSE:000802 |  34424           |     4 |   189 |     126 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    59 |     4 |    3 |   20 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|<span title='15' class='vc_sd20'>:material-circle:</span>|
+| 23 | SSE:600986  |  34118           |     6 |   171 |     737 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    55 |     4 |   -4 |   15 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|<span title='15' class='vc_sd20'>:material-circle:</span>|
+| 24 | SSE:603086  |  31530           |    17 |    69 |     767 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    63 |    10 |    9 |  120 |<span title='[GC, ICS]' class='vc_gc'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|
+| 25 | SZSE:000560 |  30434           |     9 |   235 |     617 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    54 |     3 |   -2 |   11 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_sd20'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'> 26 </span>| SSE:603062  |  27811           |    10 |    75 |     154 |<span title='[EMA10TO50]' class='vc_gc'>:material-circle:</span>|    66 |     8 |    8 |   -3 |<span title='[GCZ, ICS]' class='vc_gc'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|
+| 27 | SSE:603011  |  26544           |    16 |    81 |    1218 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    50 |     6 |  -10 |   58 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|
+| 28 | SZSE:002264 |  26250           |     5 |   284 |     249 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    52 |     2 |   -4 |   17 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|<span title='15' class='vc_sd20'>:material-circle:</span>|
+| 29 | SZSE:000753 |  25564           |     5 |   174 |     282 |<span title='[EMA10TO20]' class='vc_indicator_default'>:material-circle:</span>|    60 |     5 |    3 |    7 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|
+
 <!--2025-07-23 00:48:24w-->
 
-## 07-23 00:48 :material-circle-medium: 2025-07-08 :material-circle-medium: 01
+## 07-23 00:48 :material-circle-medium: 2025-07-08 :material-circle-medium: 02
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-08 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-23 00:48:24
@@ -1178,7 +1345,7 @@ hide:
 
 <!--2025-07-23 00:44:18w-->
 
-## 07-23 00:44 :material-circle-medium: 2025-07-09 :material-circle-medium: 02
+## 07-23 00:44 :material-circle-medium: 2025-07-09 :material-circle-medium: 03
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-09 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-23 00:44:18
@@ -1288,7 +1455,7 @@ hide:
 
 <!--2025-07-23 00:40:01w-->
 
-## 07-23 00:40 :material-circle-medium: 2025-07-10 :material-circle-medium: 03
+## 07-23 00:40 :material-circle-medium: 2025-07-10 :material-circle-medium: 04
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-10 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-23 00:40:01
@@ -1398,7 +1565,7 @@ hide:
 
 <!--2025-07-23 00:36:00w-->
 
-## 07-23 00:36 :material-circle-medium: 2025-07-11 :material-circle-medium: 04
+## 07-23 00:36 :material-circle-medium: 2025-07-11 :material-circle-medium: 05
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-11 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-23 00:36:00
@@ -1508,7 +1675,7 @@ hide:
 
 <!--2025-07-23 00:32:14w-->
 
-## 07-23 00:32 :material-circle-medium: 2025-07-14 :material-circle-medium: 05
+## 07-23 00:32 :material-circle-medium: 2025-07-14 :material-circle-medium: 06
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-14 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-23 00:32:14
@@ -1531,7 +1698,7 @@ hide:
 
 <!--2025-07-23 00:28:12w-->
 
-## 07-23 00:28 :material-circle-medium: 2025-07-15 :material-circle-medium: 06
+## 07-23 00:28 :material-circle-medium: 2025-07-15 :material-circle-medium: 07
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-15 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-23 00:28:12
@@ -1641,7 +1808,7 @@ hide:
 
 <!--2025-07-23 00:23:13w-->
 
-## 07-23 00:23 :material-circle-medium: 2025-07-16 :material-circle-medium: 07
+## 07-23 00:23 :material-circle-medium: 2025-07-16 :material-circle-medium: 08
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-16 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-23 00:23:13
@@ -1751,7 +1918,7 @@ hide:
 
 <!--2025-07-23 00:19:30w-->
 
-## 07-23 00:19 :material-circle-medium: 2025-07-17 :material-circle-medium: 08
+## 07-23 00:19 :material-circle-medium: 2025-07-17 :material-circle-medium: 09
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-17 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-23 00:19:30
@@ -1861,7 +2028,7 @@ hide:
 
 <!--2025-07-23 00:15:34w-->
 
-## 07-23 00:15 :material-circle-medium: 2025-07-18 :material-circle-medium: 09
+## 07-23 00:15 :material-circle-medium: 2025-07-18 :material-circle-medium: 10
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-18 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-23 00:15:34
@@ -1971,7 +2138,7 @@ hide:
 
 <!--2025-07-23 00:11:43w-->
 
-## 07-23 00:11 :material-circle-medium: 2025-07-21 :material-circle-medium: 10
+## 07-23 00:11 :material-circle-medium: 2025-07-21 :material-circle-medium: 11
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-21 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-23 00:11:43
@@ -2081,7 +2248,7 @@ hide:
 
 <!--2025-07-23 00:07:52w-->
 
-## 07-23 00:07 :material-circle-medium: 2025-07-22 :material-circle-medium: 11
+## 07-23 00:07 :material-circle-medium: 2025-07-22 :material-circle-medium: 12
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-22 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-23 00:07:52
@@ -2191,7 +2358,7 @@ hide:
 
 <!--2025-07-23 00:03:59w-->
 
-## 07-23 00:03 :material-circle-medium: 2025-07-23 :material-circle-medium: 12
+## 07-23 00:03 :material-circle-medium: 2025-07-23 :material-circle-medium: 13
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-23 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-23 00:03:59
@@ -2214,7 +2381,7 @@ hide:
 
 <!--2025-07-23 00:00:03n-->
 
-## 07-23 00:00 :material-circle-medium: 2025-07-23 :material-circle-medium: 13
+## 07-23 00:00 :material-circle-medium: 2025-07-23 :material-circle-medium: 14
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-23 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-23 00:00:03
@@ -2237,7 +2404,7 @@ hide:
 
 <!--2025-07-22 23:50:05n-->
 
-## 07-22 23:50 :material-circle-medium: 2025-07-22 :material-circle-medium: 14
+## 07-22 23:50 :material-circle-medium: 2025-07-22 :material-circle-medium: 15
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-22 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-22 23:50:05
@@ -2347,7 +2514,7 @@ hide:
 
 <!--2025-07-22 23:40:59n-->
 
-## 07-22 23:40 :material-circle-medium: 2025-07-22 :material-circle-medium: 15
+## 07-22 23:40 :material-circle-medium: 2025-07-22 :material-circle-medium: 16
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-22 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-22 23:40:59
@@ -2457,7 +2624,7 @@ hide:
 
 <!--2025-07-22 23:30:49n-->
 
-## 07-22 23:30 :material-circle-medium: 2025-07-22 :material-circle-medium: 16
+## 07-22 23:30 :material-circle-medium: 2025-07-22 :material-circle-medium: 17
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-22 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-22 23:30:49
@@ -2567,7 +2734,7 @@ hide:
 
 <!--2025-07-22 23:20:03n-->
 
-## 07-22 23:20 :material-circle-medium: 2025-07-22 :material-circle-medium: 17
+## 07-22 23:20 :material-circle-medium: 2025-07-22 :material-circle-medium: 18
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-22 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-22 23:20:03
@@ -2677,7 +2844,7 @@ hide:
 
 <!--2025-07-22 23:10:26n-->
 
-## 07-22 23:10 :material-circle-medium: 2025-07-22 :material-circle-medium: 18
+## 07-22 23:10 :material-circle-medium: 2025-07-22 :material-circle-medium: 19
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-22 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-22 23:10:26
@@ -2787,7 +2954,7 @@ hide:
 
 <!--2025-07-22 23:00:37n-->
 
-## 07-22 23:00 :material-circle-medium: 2025-07-22 :material-circle-medium: 19
+## 07-22 23:00 :material-circle-medium: 2025-07-22 :material-circle-medium: 20
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-22 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-22 23:00:37
@@ -2897,7 +3064,7 @@ hide:
 
 <!--2025-07-22 22:00:33n-->
 
-## 07-22 22:00 :material-circle-medium: 2025-07-22 :material-circle-medium: 20
+## 07-22 22:00 :material-circle-medium: 2025-07-22 :material-circle-medium: 21
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-22 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-22 22:00:33
@@ -3007,7 +3174,7 @@ hide:
 
 <!--2025-07-22 21:00:24n-->
 
-## 07-22 21:00 :material-circle-medium: 2025-07-22 :material-circle-medium: 21
+## 07-22 21:00 :material-circle-medium: 2025-07-22 :material-circle-medium: 22
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-22 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-22 21:00:24
@@ -3117,7 +3284,7 @@ hide:
 
 <!--2025-07-22 20:00:02n-->
 
-## 07-22 20:00 :material-circle-medium: 2025-07-22 :material-circle-medium: 22
+## 07-22 20:00 :material-circle-medium: 2025-07-22 :material-circle-medium: 23
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-22 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-22 20:00:02
@@ -3227,7 +3394,7 @@ hide:
 
 <!--2025-07-22 19:00:18n-->
 
-## 07-22 19:00 :material-circle-medium: 2025-07-22 :material-circle-medium: 23
+## 07-22 19:00 :material-circle-medium: 2025-07-22 :material-circle-medium: 24
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-22 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-22 19:00:18
@@ -3337,7 +3504,7 @@ hide:
 
 <!--2025-07-22 17:00:16n-->
 
-## 07-22 17:00 :material-circle-medium: 2025-07-22 :material-circle-medium: 24
+## 07-22 17:00 :material-circle-medium: 2025-07-22 :material-circle-medium: 25
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-22 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-22 17:00:16
@@ -3447,7 +3614,7 @@ hide:
 
 <!--2025-07-22 09:00:46n-->
 
-## 07-22 09:00 :material-circle-medium: 2025-07-22 :material-circle-medium: 25
+## 07-22 09:00 :material-circle-medium: 2025-07-22 :material-circle-medium: 26
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-22 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-22 09:00:46
@@ -3528,7 +3695,7 @@ hide:
 
 <!--2025-07-22 08:00:32n-->
 
-## 07-22 08:00 :material-circle-medium: 2025-07-22 :material-circle-medium: 26
+## 07-22 08:00 :material-circle-medium: 2025-07-22 :material-circle-medium: 27
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-22 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-22 08:00:32
@@ -3609,7 +3776,7 @@ hide:
 
 <!--2025-07-21 22:10:47n-->
 
-## 07-21 22:10 :material-circle-medium: 2025-07-21 :material-circle-medium: 27
+## 07-21 22:10 :material-circle-medium: 2025-07-21 :material-circle-medium: 28
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-21 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-21 22:10:47
@@ -3719,7 +3886,7 @@ hide:
 
 <!--2025-07-21 22:00:54n-->
 
-## 07-21 22:00 :material-circle-medium: 2025-07-21 :material-circle-medium: 28
+## 07-21 22:00 :material-circle-medium: 2025-07-21 :material-circle-medium: 29
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-21 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-21 22:00:54
@@ -3829,7 +3996,7 @@ hide:
 
 <!--2025-07-21 21:50:46n-->
 
-## 07-21 21:50 :material-circle-medium: 2025-07-21 :material-circle-medium: 29
+## 07-21 21:50 :material-circle-medium: 2025-07-21 :material-circle-medium: 30
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-21 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-21 21:50:46
@@ -3939,7 +4106,7 @@ hide:
 
 <!--2025-07-21 21:40:25n-->
 
-## 07-21 21:40 :material-circle-medium: 2025-07-21 :material-circle-medium: 30
+## 07-21 21:40 :material-circle-medium: 2025-07-21 :material-circle-medium: 31
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-21 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-21 21:40:25
@@ -4049,7 +4216,7 @@ hide:
 
 <!--2025-07-21 21:30:36n-->
 
-## 07-21 21:30 :material-circle-medium: 2025-07-21 :material-circle-medium: 31
+## 07-21 21:30 :material-circle-medium: 2025-07-21 :material-circle-medium: 32
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-21 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-21 21:30:36
@@ -4159,7 +4326,7 @@ hide:
 
 <!--2025-07-21 21:20:54n-->
 
-## 07-21 21:20 :material-circle-medium: 2025-07-21 :material-circle-medium: 32
+## 07-21 21:20 :material-circle-medium: 2025-07-21 :material-circle-medium: 33
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-21 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-21 21:20:54
@@ -4269,7 +4436,7 @@ hide:
 
 <!--2025-07-21 21:10:08n-->
 
-## 07-21 21:10 :material-circle-medium: 2025-07-21 :material-circle-medium: 33
+## 07-21 21:10 :material-circle-medium: 2025-07-21 :material-circle-medium: 34
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-21 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-21 21:10:08
@@ -4379,7 +4546,7 @@ hide:
 
 <!--2025-07-21 21:00:12n-->
 
-## 07-21 21:00 :material-circle-medium: 2025-07-21 :material-circle-medium: 34
+## 07-21 21:00 :material-circle-medium: 2025-07-21 :material-circle-medium: 35
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-21 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-21 21:00:12
@@ -4489,7 +4656,7 @@ hide:
 
 <!--2025-07-21 20:00:37n-->
 
-## 07-21 20:00 :material-circle-medium: 2025-07-21 :material-circle-medium: 35
+## 07-21 20:00 :material-circle-medium: 2025-07-21 :material-circle-medium: 36
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-21 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-21 20:00:37
@@ -4599,7 +4766,7 @@ hide:
 
 <!--2025-07-21 19:00:10n-->
 
-## 07-21 19:00 :material-circle-medium: 2025-07-21 :material-circle-medium: 36
+## 07-21 19:00 :material-circle-medium: 2025-07-21 :material-circle-medium: 37
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-21 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-21 19:00:10
@@ -4709,7 +4876,7 @@ hide:
 
 <!--2025-07-21 18:00:53n-->
 
-## 07-21 18:00 :material-circle-medium: 2025-07-21 :material-circle-medium: 37
+## 07-21 18:00 :material-circle-medium: 2025-07-21 :material-circle-medium: 38
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-21 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-21 18:00:53
@@ -4819,7 +4986,7 @@ hide:
 
 <!--2025-07-21 17:00:28n-->
 
-## 07-21 17:00 :material-circle-medium: 2025-07-21 :material-circle-medium: 38
+## 07-21 17:00 :material-circle-medium: 2025-07-21 :material-circle-medium: 39
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-21 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-21 17:00:28
@@ -4929,7 +5096,7 @@ hide:
 
 <!--2025-07-21 16:00:50n-->
 
-## 07-21 16:00 :material-circle-medium: 2025-07-21 :material-circle-medium: 39
+## 07-21 16:00 :material-circle-medium: 2025-07-21 :material-circle-medium: 40
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-21 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-21 16:00:50
@@ -5014,76 +5181,3 @@ hide:
 |<span class='vc_buyin_ticker'> 27 </span>| SZSE:002233 |  47057 |     6 |   810 |     588 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|<span class='critical'>80</span>|     8 |   20 |   12 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|
 | 28 | SSE:600558  |  46413 |    10 |   310 |     506 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    63 |     5 |   12 |   24 |<span title='[GC, ICS]' class='vc_gc'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_sd20'>:material-circle:</span>|
 |<span class='vc_buyin_ticker'> 29 </span>| SSE:601992  |  44301 |     3 |   788 |     498 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|<span class='warn'>73</span>|     7 |   17 |    9 |<span title='[GC, ICS]' class='vc_gc'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|
-
-<!--2025-07-21 15:00:13n-->
-
-## 07-21 15:00 :material-circle-medium: 2025-07-21 :material-circle-medium: 40
----
-
-> Market: SE :material-circle-medium: Target Date: 2025-07-21 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-21 15:00:13
-
-|    | Ticker          |           RATE |   VPR |   VDR |   VP(M) | EMAT                   |   RSI |   CGR |   MP |   SP | MT         |   FSL |   SD20 |
-|:----:|-----------------|----------------|-------|-------|---------|------------------------|-------|-------|------|------|------------|-------|--------|
-|<span class='vc_buyin_ticker'>  0 </span>| NGM:FINE        |    1.75212e+08 |    21 | 70372 |       4 |<span title='[EMA10TO50, EMA10TO20]' class='vc_gc'>:material-circle:</span>|    84 |    65 |  127 |   87 |<span title='[GCZ, ICS]' class='vc_gc'>:material-circle:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|
-|  1 | OMXSTO:DONE     | 1859           |     0 |   230 |       3 |<span title='[EMA10TO50]' class='vc_gc'>:material-circle:</span>|    67 |    11 |   14 |   15 |<span title='[GCZ, ICS]' class='vc_gc'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|
-|  2 | OMXSTO:FABG     | 1365           |     0 |   126 |      62 |<span title='[EMA5TO10, EMA20TO50]' class='vc_gc'>:material-circle:</span>|    55 |     2 |    0 |    3 |<span title='[GC, ICS]' class='vc_gc'>:material-circle:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|<span title='15' class='vc_sd20'>:material-circle:</span>|
-|  3 | OMXSTO:BEAMMW_B |  309           |     0 |   124 |       1 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    53 |     5 |    2 |  154 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_sd20'>:material-circle:</span>|
-|<span class='vc_buyin_ticker'>  4 </span>| OMXSTO:ACE      |  222           |     1 |    66 |       7 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|<span class='warn'>70</span>|     8 |   16 |   59 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|
-|<span class='vc_buyin_ticker'>  5 </span>| OMXSTO:KEBNI_B  |  152           |     1 |    91 |       7 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|<span class='warn'>70</span>|     6 |   34 |   86 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|
-|  6 | OMXSTO:FLAT_B   |  142           |     1 |    31 |      16 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    48 |     2 |  -13 |   31 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|
-|  7 | OMXSTO:DMYD_B   |   32           |     0 |    39 |       2 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    55 |     1 |    2 |   24 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_sd20'>:material-circle:</span>|
-|<span class='vc_buyin_ticker'>  8 </span>| OMXSTO:OBSE     |   28           |     1 |    19 |       2 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|<span class='warn'>76</span>|     7 |   22 |   46 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|
-|  9 | OMXSTO:SLP_B    |   10           |     0 |   155 |       3 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    49 |     1 |   -3 |    9 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_sd20'>:material-circle:</span>|
-|<span class='vc_buyin_ticker'> 10 </span>| OMXSTO:NORION   |    8           |     1 |   510 |      64 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|<span class='warn'>79</span>|     1 |   19 |   52 |<span title='[DCS]' class='vc_dcs'>:material-format-font-size-decrease:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|
-| 11 | OMXSTO:SSAB_B   |    6           |     0 |    15 |     289 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    65 |     4 |   13 |   11 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|
-| 12 | OMXSTO:SAGA_D   |    1           |     0 |    14 |       8 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    49 |     1 |   -2 |    5 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_sd20'>:material-circle:</span>|
-| 13 | OMXSTO:VERT_B   |    1           |     0 |   142 |       1 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    66 |     4 |   24 |   12 |<span title='[DCS]' class='vc_dcs'>:material-format-font-size-decrease:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|
-| 14 | OMXSTO:ACAD     |    0           |     0 |    44 |      13 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    68 |     1 |   13 |   13 |<span title='[DCS]' class='vc_dcs'>:material-format-font-size-decrease:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|
-|<span class='vc_buyin_ticker'> 15 </span>| OMXSTO:NELLY    |    0           |     0 |    14 |       7 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|<span class='warn'>79</span>|     2 |   39 |   55 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='0' class='vc_indicator_default'>:material-circle:</span>|<span title='0' class='vc_indicator_default'>:material-circle:</span>|
-|<span class='vc_buyin_ticker'> 16 </span>| OMXSTO:GRANGX   |    0           |     1 |   294 |       5 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|<span class='warn'>79</span>|    10 |   91 |  253 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='0' class='vc_indicator_default'>:material-circle:</span>|<span title='0' class='vc_indicator_default'>:material-circle:</span>|
-|<span class='vc_buyin_ticker'> 17 </span>| OMXSTO:IAR_B    |    0           |     0 |   161 |       4 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|<span class='critical'>84</span>|     1 |   60 |   63 |<span title='[DCS]' class='vc_dcs'>:material-format-font-size-decrease:</span>|<span title='0' class='vc_indicator_default'>:material-circle:</span>|<span title='0' class='vc_indicator_default'>:material-circle:</span>|
-|<span class='vc_buyin_ticker'> 18 </span>| OMXSTO:NTEK_B   |    0           |     0 |    95 |       1 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|<span class='critical'>82</span>|     4 |   21 |   41 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='0' class='vc_indicator_default'>:material-circle:</span>|<span title='0' class='vc_indicator_default'>:material-circle:</span>|
-| 19 | OMXSTO:PAX      |    0           |     0 |    34 |       3 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    62 |     1 |    6 |   26 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='0' class='vc_indicator_default'>:material-circle:</span>|<span title='0' class='vc_indicator_default'>:material-circle:</span>|
-|<span class='vc_buyin_ticker'> 20 </span>| OMXSTO:SUMMAS   |    0           |     0 |   216 |       3 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    25 |     1 |  -21 |  -62 |<span title='0' class='vc_indicator_default'>:material-circle:</span>|<span title='0' class='vc_indicator_default'>:material-circle:</span>|<span title='0' class='vc_indicator_default'>:material-circle:</span>|
-| 21 | OMXSTO:RROS     |   -0           |     0 |    79 |       1 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    43 |     2 |   -8 |  -41 |<span title='[DCS]' class='vc_dcs'>:material-format-font-size-decrease:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|
-
-> Market: US :material-circle-medium: Target Date: 2025-07-21 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-21 15:00:30
-
-|    | Market   |
-|----|----------|
-|  0 | America  |
-
-> Market: CN :material-circle-medium: Target Date: 2025-07-21 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 30 :material-circle-medium: Timestamp: 2025-07-21 15:02:53
-
-|    | Ticker      |   RATE |   VPR |   VDR |   VP(M) | EMAT                   |   RSI |   CGR |   MP |   SP | MT             |   FSL |   SD20 |
-|:----:|-------------|--------|-------|-------|---------|------------------------|-------|-------|------|------|----------------|-------|--------|
-|  0 | SZSE:002613 | 531860 |     7 |   379 |     311 |<span title='[EMA5TO10, EMA10TO50]' class='vc_gc'>:material-circle:</span>|    63 |     5 |   13 |    3 |<span title='[ICS, GC]' class='vc_gc'>:material-circle:</span>|<span title='21' class='vc_fsl'>:material-circle:</span>|<span title='21' class='vc_sd20'>:material-circle:</span>|
-|<span class='vc_buyin_ticker'>  1 </span>| SSE:603477  | 365580 |     8 |   267 |     829 |<span title='[EMA20TO50]' class='vc_gc'>:material-circle:</span>|    56 |     6 |    2 |   -0 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='21' class='vc_fsl'>:material-circle:</span>|<span title='21' class='vc_sd20'>:material-circle:</span>|
-|  2 | SZSE:000816 | 264735 |     7 |   598 |     349 |<span title='[EMA5TO10, EMA10TO50]' class='vc_gc'>:material-circle:</span>|    63 |     4 |    8 |    3 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|<span title='15' class='vc_sd20'>:material-circle:</span>|
-|  3 | SZSE:001382 | 221032 |    27 |   522 |     356 |<span title='[EMA5TO10, EMA10TO20]' class='vc_indicator_default'>:material-circle:</span>|    60 |     3 |   10 |   -3 |<span title='[ICS, GCZ]' class='vc_gc'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_sd20'>:material-circle:</span>|
-|<span class='vc_buyin_ticker'>  4 </span>| SZSE:002534 | 177878 |     2 |   326 |     195 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|<span class='warn'>75</span>|    10 |   16 |   10 |<span title='[ICS, GC]' class='vc_gc'>:material-circle:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|
-|  5 | SZSE:002986 | 170652 |     3 |   359 |     119 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    56 |     5 |   -5 |   10 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='21' class='vc_fsl'>:material-circle:</span>|<span title='21' class='vc_sd20'>:material-circle:</span>|
-|<span class='vc_buyin_ticker'>  6 </span>| SSE:601179  | 143642 |     6 |   496 |    1983 |<span title='[EMA20TO50]' class='vc_gc'>:material-circle:</span>|<span class='critical'>80</span>|     6 |   16 |   11 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|
-|  7 | SZSE:002567 | 141498 |     6 |   268 |     440 |<span title='[EMA5TO10, EMA10TO20]' class='vc_indicator_default'>:material-circle:</span>|    65 |     4 |    6 |   -2 |<span title='[ICS, GCZ, GC]' class='vc_gc'>:material-circle:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|<span title='15' class='vc_sd20'>:material-circle:</span>|
-|  8 | SZSE:000516 | 131544 |     4 |   266 |     495 |<span title='[EMA10TO50]' class='vc_gc'>:material-circle:</span>|    64 |     3 |    7 |    2 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='21' class='vc_fsl'>:material-circle:</span>|<span title='21' class='vc_sd20'>:material-circle:</span>|
-|<span class='vc_buyin_ticker'>  9 </span>| SSE:600668  | 111456 |    18 |   497 |    1000 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|<span class='warn'>70</span>|     8 |   19 |   43 |<span title='[ICS, GC]' class='vc_gc'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|
-|<span class='vc_buyin_ticker'> 10 </span>| SZSE:002297 | 108167 |    16 |   401 |     794 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|<span class='warn'>73</span>|    10 |   20 |   22 |<span title='[ICS, GC]' class='vc_gc'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|
-|<span class='vc_buyin_ticker'> 11 </span>| SSE:600585  | 101310 |     3 |   992 |    4423 |<span title='[EMA10TO50]' class='vc_gc'>:material-circle:</span>|<span class='warn'>73</span>|     3 |   13 |   -1 |<span title='[ICS, GCZ]' class='vc_gc'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|
-|<span class='vc_buyin_ticker'> 12 </span>| SSE:600449  |  91703 |     9 |   556 |     636 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|<span class='critical'>82</span>|     7 |   17 |   11 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|
-| 13 | SZSE:002053 |  86258 |     2 |   343 |     187 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    57 |     4 |   -0 |    1 |<span title='[ICS, GC]' class='vc_gc'>:material-circle:</span>|<span title='21' class='vc_fsl'>:material-circle:</span>|<span title='21' class='vc_sd20'>:material-circle:</span>|
-|<span class='vc_buyin_ticker'> 14 </span>| SZSE:002681 |  84423 |    12 |   155 |    1456 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    53 |     6 |    5 |   -2 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|<span title='15' class='vc_sd20'>:material-circle:</span>|
-| 15 | SSE:603097  |  82604 |    10 |   135 |      89 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    53 |     2 |    3 |    5 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='21' class='vc_fsl'>:material-circle:</span>|<span title='21' class='vc_sd20'>:material-circle:</span>|
-| 16 | SZSE:002541 |  78729 |     3 |   209 |     341 |<span title='[EMA5TO10, EMA10TO20]' class='vc_indicator_default'>:material-circle:</span>|    59 |     5 |   13 |   -3 |<span title='[ICS, GCZ]' class='vc_gc'>:material-circle:</span>|<span title='21' class='vc_fsl'>:material-circle:</span>|<span title='21' class='vc_sd20'>:material-circle:</span>|
-| 17 | SZSE:001288 |  75243 |     3 |   204 |     171 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    59 |     4 |    4 |   -0 |<span title='[ICS, GC]' class='vc_gc'>:material-circle:</span>|<span title='21' class='vc_fsl'>:material-circle:</span>|<span title='21' class='vc_sd20'>:material-circle:</span>|
-| 18 | SSE:605296  |  66542 |     2 |   401 |     424 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    62 |     9 |    1 |   14 |<span title='[ICS, GCZ]' class='vc_gc'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_sd20'>:material-circle:</span>|
-|<span class='vc_buyin_ticker'> 19 </span>| SZSE:002646 |  61156 |     6 |   595 |     276 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|<span class='warn'>75</span>|     4 |   12 |   14 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|
-|<span class='vc_buyin_ticker'> 20 </span>| SSE:600312  |  59274 |     9 |   670 |    1971 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|<span class='warn'>70</span>|     4 |   11 |   -5 |<span title='[ICS, GCZ]' class='vc_gc'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|
-| 21 | SZSE:000933 |  57451 |     3 |   245 |    1322 |<span title='[EMA5TO10, EMA20TO50]' class='vc_gc'>:material-circle:</span>|    67 |     6 |   10 |   10 |<span title='[ICS, GC]' class='vc_gc'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|
-| 22 | SSE:600712  |  55442 |     6 |   179 |     207 |<span title='[EMA20TO50, EMA10TO50]' class='vc_gc'>:material-circle:</span>|    65 |     5 |    9 |    7 |<span title='[ICS, GCZ]' class='vc_gc'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|<span title='10' class='vc_indicator_default'>:material-circle:</span>|
-| 23 | SZSE:002691 |  55037 |     4 |   271 |     122 |<span title='[EMA5TO10, EMA10TO20]' class='vc_indicator_default'>:material-circle:</span>|    57 |     3 |    6 |    8 |<span title='[ICS, GCZ, GC]' class='vc_gc'>:material-circle:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|<span title='15' class='vc_sd20'>:material-circle:</span>|
-| 24 | SSE:600293  |  54549 |     6 |   257 |     234 |<span title='[EMA10TO20]' class='vc_indicator_default'>:material-circle:</span>|    55 |     5 |    6 |   13 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|<span title='15' class='vc_sd20'>:material-circle:</span>|
-| 25 | SSE:600021  |  50748 |     5 |   340 |    1478 |<span title='[EMA50TO100]' class='vc_gc'>:material-circle:</span>|    69 |     5 |    9 |    9 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|
-| 26 | SSE:600859  |  49534 |     4 |    94 |     640 |<span title='[EMA5TO10, EMA10TO20]' class='vc_indicator_default'>:material-circle:</span>|    62 |     3 |    7 |   -4 |<span title='[ICS, GCZ, GC]' class='vc_gc'>:material-circle:</span>|<span title='21' class='vc_fsl'>:material-circle:</span>|<span title='21' class='vc_sd20'>:material-circle:</span>|
-|<span class='vc_buyin_ticker'> 27 </span>| SZSE:002233 |  47057 |     6 |   810 |     588 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|<span class='critical'>80</span>|     8 |   20 |   12 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|
-| 28 | SSE:600558  |  46413 |    10 |   310 |     506 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|    63 |     5 |   12 |   24 |<span title='[ICS, GC]' class='vc_gc'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_sd20'>:material-circle:</span>|
-|<span class='vc_buyin_ticker'> 29 </span>| SSE:601992  |  44301 |     3 |   788 |     498 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|<span class='warn'>73</span>|     7 |   17 |    9 |<span title='[ICS, GC]' class='vc_gc'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|
