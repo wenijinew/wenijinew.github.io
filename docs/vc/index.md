@@ -209,6 +209,158 @@ hide:
 "SSE:600348",
 "SSE:601918",
 "SSE:600682",
+"NGM:FINE",
+"OMXSTO:ADVBOX",
+"OMXSTO:FLUO",
+"OMXSTO:DONE",
+"OMXSTO:FABG",
+"NASDAQ:AIRE",
+"NASDAQ:BENF",
+"NYSE:OPAD",
+"NASDAQ:PET",
+"NASDAQ:ATNF",
+"SZSE:002613",
+"SSE:603477",
+"SZSE:000816",
+"SZSE:001382",
+"SZSE:002534",
+"OMXSTO:OMXS30",
+"SSE:000001",
+"NASDAQ:NDX",
+"OMXSTO:ERIC_B",
+"OMXSTO:OMXS30",
+"SSE:000001",
+"NASDAQ:NDX",
+"OMXSTO:ERIC_B",
+"OMXSTO:ANNX",
+"NASDAQ:SOWG",
+"NASDAQ:YAAS",
+"NASDAQ:NXTC",
+"NASDAQ:TNFA",
+"NASDAQ:XFOR",
+"SZSE:002986",
+"SSE:603528",
+"SSE:600936",
+"SSE:603030",
+"SZSE:000665",
+"OMXSTO:CLAV",
+"NGM:SHT.B",
+"OMXSTO:MAVEN",
+"OMXSTO:ACUVI",
+"OMXSTO:IMMNOV",
+"NASDAQ:SUGP",
+"NASDAQ:MEGL",
+"SSE:603567",
+"SZSE:002251",
+"SZSE:002159",
+"SZSE:002887",
+"SSE:600185",
+"OMXSTO:XMR",
+"OMXSTO:PRIC_B",
+"OMXSTO:CLS_B",
+"OMXSTO:BICO",
+"OMXSTO:STW",
+"NASDAQ:YYAI",
+"NASDAQ:PALI",
+"NASDAQ:CTOR",
+"NASDAQ:RMSG",
+"NASDAQ:UOKA",
+"SZSE:002771",
+"SSE:600738",
+"SSE:600731",
+"SSE:600137",
+"SZSE:000851",
+"OMXSTO:PENG_B",
+"OMXSTO:WBGR_B",
+"OMXSTO:TERRNT_B",
+"OMXSTO:NEXAM",
+"OMXSTO:PROGEN",
+"NASDAQ:ZOOZ",
+"NASDAQ:QVCGA",
+"NASDAQ:JXG",
+"NASDAQ:PBM",
+"NASDAQ:FLWS",
+"SSE:601101",
+"SSE:600546",
+"SSE:600348",
+"SSE:601918",
+"SSE:600682",
+"NGM:FINE",
+"OMXSTO:ADVBOX",
+"OMXSTO:FLUO",
+"OMXSTO:DONE",
+"OMXSTO:FABG",
+"NASDAQ:AIRE",
+"NASDAQ:BENF",
+"NYSE:OPAD",
+"NASDAQ:PET",
+"NASDAQ:ATNF",
+"SZSE:002613",
+"SSE:603477",
+"SZSE:000816",
+"SZSE:001382",
+"SZSE:002534",
+"OMXSTO:OMXS30",
+"SSE:000001",
+"NASDAQ:NDX",
+"OMXSTO:ERIC_B",
+"OMXSTO:OMXS30",
+"SSE:000001",
+"NASDAQ:NDX",
+"OMXSTO:ERIC_B",
+"OMXSTO:ANNX",
+"NASDAQ:SOWG",
+"NASDAQ:YAAS",
+"NASDAQ:NXTC",
+"NASDAQ:TNFA",
+"NASDAQ:XFOR",
+"SZSE:002986",
+"SSE:603528",
+"SSE:600936",
+"SSE:603030",
+"SZSE:000665",
+"OMXSTO:CLAV",
+"NGM:SHT.B",
+"OMXSTO:MAVEN",
+"OMXSTO:ACUVI",
+"OMXSTO:IMMNOV",
+"NASDAQ:SUGP",
+"NASDAQ:MEGL",
+"SSE:603567",
+"SZSE:002251",
+"SZSE:002159",
+"SZSE:002887",
+"SSE:600185",
+"OMXSTO:XMR",
+"OMXSTO:PRIC_B",
+"OMXSTO:CLS_B",
+"OMXSTO:BICO",
+"OMXSTO:STW",
+"NASDAQ:YYAI",
+"NASDAQ:PALI",
+"NASDAQ:CTOR",
+"NASDAQ:RMSG",
+"NASDAQ:UOKA",
+"SZSE:002771",
+"SSE:600738",
+"SSE:600731",
+"SSE:600137",
+"SZSE:000851",
+"OMXSTO:PENG_B",
+"OMXSTO:WBGR_B",
+"OMXSTO:TERRNT_B",
+"OMXSTO:NEXAM",
+"OMXSTO:PROGEN",
+"NASDAQ:ZOOZ",
+"NASDAQ:QVCGA",
+"NASDAQ:JXG",
+"NASDAQ:PBM",
+"NASDAQ:FLWS",
+"SSE:601101",
+"SSE:600546",
+"SSE:600348",
+"SSE:601918",
+"SSE:600682",
 "OMXSTO:OMXS30",
 "SSE:000001",
 "NASDAQ:NDX",
@@ -505,9 +657,44 @@ hide:
 "NASDAQ:NDX",
 "OMXSTO:ERIC_B",
 
+<!--2025-07-25 08:00:01w-->
+
+## 07-25 08:00 :material-circle-medium: 2025-07-21 :material-circle-medium: 01
+---
+
+> Market: SE :material-circle-medium: Target Date: 2025-07-21 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 5 :material-circle-medium: Timestamp: 2025-07-25 08:00:01
+
+|    | Ticker        |             RATE |   VPR |   VDR |   VP(M) | EMAT                              |   RSI |   CGR |   MP |   SP | MT         |   FSL |   SD20 |
+|:----:|---------------|------------------|-------|-------|---------|-----------------------------------|-------|-------|------|------|------------|-------|--------|
+|<span class='vc_buyin_ticker'>  0 </span>| NGM:FINE      |      2.56751e+09 |    28 | 90960 |       6 |<span title='[EMA10TO20, EMA10TO50, EMA20TO50]' class='vc_gc'>:material-circle:</span>|<span class='critical'>88</span>|   106 |  184 |  133 |<span title='[GCZ, ICS]' class='vc_gc'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'>  1 </span>| OMXSTO:ADVBOX | 161413           |    34 |   384 |       4 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    36 |    46 |  -62 |  -75 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|
+|  2 | OMXSTO:FLUO   |   8222           |     0 |  1331 |       1 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    53 |     4 |   -5 |    9 |<span title='[DCS]' class='vc_dcs'>:material-format-font-size-decrease:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|<span title='15' class='vc_sd20'>:material-circle:</span>|
+|  3 | OMXSTO:DONE   |   4916           |     1 |   401 |       5 |<span title='[EMA10TO50]' class='vc_gc'>:material-circle:</span>|    67 |    11 |   14 |   15 |<span title='[GCZ, ICS]' class='vc_gc'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|
+|  4 | OMXSTO:FABG   |   2993           |     0 |   183 |      78 |<span title='[EMA5TO10, EMA20TO50]' class='vc_gc'>:material-circle:</span>|    56 |     2 |    1 |    3 |<span title='[GC, ICS]' class='vc_gc'>:material-circle:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|<span title='15' class='vc_sd20'>:material-circle:</span>|
+
+> Market: US :material-circle-medium: Target Date: 2025-07-21 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 5 :material-circle-medium: Timestamp: 2025-07-25 08:00:19
+
+|    | Ticker      |        RATE |   VPR |   VDR |   VP(M) | EMAT                   |   RSI |   CGR |   MP |   SP | MT        |   FSL |   SD20 |
+|:----:|-------------|-------------|-------|-------|---------|------------------------|-------|-------|------|------|-----------|-------|--------|
+|<span class='vc_buyin_ticker'>  0 </span>| NASDAQ:AIRE | 8.52625e+09 |  1309 |   969 |     605 |<span title='[EMA5TO10, EMA10TO20]' class='vc_indicator_default'>:material-circle:</span>|<span class='warn'>79</span>|   207 |  126 |   37 |<span title='[GC, ICS]' class='vc_gc'>:material-circle:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'>  1 </span>| NASDAQ:BENF | 6.73271e+08 |   560 |  9500 |      21 |<span title='[EMA20TO50, EMA10TO50]' class='vc_gc'>:material-circle:</span>|<span class='warn'>76</span>|    19 |   55 |   79 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'>  2 </span>| NYSE:OPAD   | 6.13422e+07 |    90 |  4487 |      83 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|<span class='critical'>87</span>|    44 |  247 |  127 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|<span title='3' class='vc_indicator_default'>:material-circle:</span>|
+|  3 | NASDAQ:PET  | 2.12342e+07 |   178 |  3710 |      11 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|    45 |     4 |    1 |   23 |<span title='[DCS]' class='vc_dcs'>:material-format-font-size-decrease:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'>  4 </span>| NASDAQ:ATNF | 1.58658e+07 |   419 |   672 |      73 |<span title='[]' class='vc_indicator_default'>:material-circle:</span>|<span class='fire'>92</span>|    31 |  230 |  219 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|<span title='1' class='vc_indicator_default'>:material-circle:</span>|
+
+> Market: CN :material-circle-medium: Target Date: 2025-07-21 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 5 :material-circle-medium: Timestamp: 2025-07-25 08:01:16
+
+|    | Ticker      |   RATE |   VPR |   VDR |   VP(M) | EMAT                  |   RSI |   CGR |   MP |   SP | MT         |   FSL |   SD20 |
+|:----:|-------------|--------|-------|-------|---------|-----------------------|-------|-------|------|------|------------|-------|--------|
+|  0 | SZSE:002613 | 531860 |     7 |   379 |     311 |<span title='[EMA5TO10, EMA10TO50]' class='vc_gc'>:material-circle:</span>|    63 |     5 |   13 |    3 |<span title='[GC, ICS]' class='vc_gc'>:material-circle:</span>|<span title='21' class='vc_fsl'>:material-circle:</span>|<span title='21' class='vc_sd20'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'>  1 </span>| SSE:603477  | 365580 |     8 |   267 |     829 |<span title='[EMA20TO50]' class='vc_gc'>:material-circle:</span>|    56 |     6 |    2 |   -0 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='21' class='vc_fsl'>:material-circle:</span>|<span title='21' class='vc_sd20'>:material-circle:</span>|
+|  2 | SZSE:000816 | 264735 |     7 |   598 |     349 |<span title='[EMA5TO10, EMA10TO50]' class='vc_gc'>:material-circle:</span>|    63 |     4 |    8 |    3 |<span title='[ICS]' class='vc_ics'>:material-format-font-size-increase:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|<span title='15' class='vc_sd20'>:material-circle:</span>|
+|  3 | SZSE:001382 | 221032 |    27 |   522 |     356 |<span title='[EMA5TO10, EMA10TO20]' class='vc_indicator_default'>:material-circle:</span>|    60 |     3 |   10 |   -3 |<span title='[GCZ, ICS]' class='vc_gc'>:material-circle:</span>|<span title='6' class='vc_indicator_default'>:material-circle:</span>|<span title='6' class='vc_sd20'>:material-circle:</span>|
+|<span class='vc_buyin_ticker'>  4 </span>| SZSE:002534 | 177878 |     2 |   326 |     195 |<span title='[EMA5TO10]' class='vc_indicator_default'>:material-circle:</span>|<span class='warn'>75</span>|    10 |   16 |   10 |<span title='[GC, ICS]' class='vc_gc'>:material-circle:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|<span title='15' class='vc_indicator_default'>:material-circle:</span>|
+
 <!--2025-07-25 07:56:54w-->
 
-## 07-25 07:56 :material-circle-medium: 2025-07-22 :material-circle-medium: 01
+## 07-25 07:56 :material-circle-medium: 2025-07-22 :material-circle-medium: 02
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-22 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 5 :material-circle-medium: Timestamp: 2025-07-25 07:56:54
@@ -542,7 +729,7 @@ hide:
 
 <!--2025-07-25 07:54:17w-->
 
-## 07-25 07:54 :material-circle-medium: 2025-07-23 :material-circle-medium: 02
+## 07-25 07:54 :material-circle-medium: 2025-07-23 :material-circle-medium: 03
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-23 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 5 :material-circle-medium: Timestamp: 2025-07-25 07:54:17
@@ -577,7 +764,7 @@ hide:
 
 <!--2025-07-25 07:51:54w-->
 
-## 07-25 07:51 :material-circle-medium: 2025-07-24 :material-circle-medium: 03
+## 07-25 07:51 :material-circle-medium: 2025-07-24 :material-circle-medium: 04
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-24 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 5 :material-circle-medium: Timestamp: 2025-07-25 07:51:54
@@ -612,7 +799,7 @@ hide:
 
 <!--2025-07-25 07:49:02w-->
 
-## 07-25 07:49 :material-circle-medium: 2025-07-25 :material-circle-medium: 04
+## 07-25 07:49 :material-circle-medium: 2025-07-25 :material-circle-medium: 05
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-25 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 5 :material-circle-medium: Timestamp: 2025-07-25 07:49:02
@@ -643,7 +830,7 @@ hide:
 
 <!--2025-07-25 07:46:44w-->
 
-## 07-25 07:46 :material-circle-medium: 2025-07-25 :material-circle-medium: 05
+## 07-25 07:46 :material-circle-medium: 2025-07-25 :material-circle-medium: 06
 ---
 
 > Market: SE :material-circle-medium: Target Date: 2025-07-25 :material-circle-medium: Indicator: RATE :material-circle-medium: Top: 5 :material-circle-medium: Timestamp: 2025-07-25 07:46:44
