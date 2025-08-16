@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <link rel="stylesheet" href="{{ 'css/min.css' | url }}">
+{% endblock %}
+
+{% block announce %}
+  Bruce Wen's Notes. For updates follow <strong>@wenijinew</strong> on
+  <a href="https://twitter.com/wenijinew">
+    <span class="twemoji twitter">
+      {% include ".icons/fontawesome/brands/twitter.svg" %}
+    </span>
+    <strong>Twitter</strong>
+  </a>
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <script src="{{ 'javascript/min.js' | url }}"></script>
+{% endblock %}
