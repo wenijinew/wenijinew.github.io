@@ -16,7 +16,8 @@ This guide covers the reorganized Alt key combinations for VS Code, designed for
 | **Settings** | `s` | Settings, preferences, and configuration |
 | **Files** | `f` | File operations and management |
 | **Editor** | `e` | Editor actions and text manipulation |
-| **Layout** | `l` | Window layout and splitting |
+| **Layout** | `e` | Window layout and splitting |
+| **Editor Switching** | `l` | Editor switching and navigation |
 | **Terminal** | `t` | Terminal and console operations |
 | **View** | `v` | Views, panels, and navigation |
 | **Git** | `g` | Version control operations |
@@ -65,16 +66,23 @@ This guide covers the reorganized Alt key combinations for VS Code, designed for
 | `Alt + e + n` | Next Error | Go to next error/warning |
 | `Alt + e + Shift + n` | Next Error in Files | Go to next error across files |
 
-## 🔲 Layout & Splitting (`Alt + l`)
+## 🔄 Editor Switching (`Alt + l`)
 
 | Shortcut | Action | Description |
 |----------|--------|-------------|
-| `Alt + l + v` | Split Vertical | Split editor vertically |
-| `Alt + l + h` | Split Horizontal | Split editor horizontally |
-| `Alt + l + ←/→/↑/↓` | Split Direction | Split in specific direction |
-| `Alt + l + j/k` | Focus Left/Right | Focus left/right editor group |
-| `Alt + l + ↑/↓` | Focus Up/Down | Focus up/down editor group |
-| `Alt + l + 1/2/3` | Layout Columns | Set 1/2/3 column layout |
+| `Alt + l` | Switch Recent Editor | Switch between recent editors |
+| `Alt + l` | Navigate Editor Picker | Navigate in editor picker (when active) |
+
+## 🔲 Layout & Splitting (`Alt + e`)
+
+| Shortcut | Action | Description |
+|----------|--------|-------------|
+| `Alt + e + v` | Split Vertical | Split editor vertically |
+| `Alt + e + h` | Split Horizontal | Split editor horizontally |
+| `Alt + e + ←/→/↑/↓` | Split Direction | Split in specific direction |
+| `Alt + e + j/k` | Focus Left/Right | Focus left/right editor group |
+| `Alt + e + ↑/↓` | Focus Up/Down | Focus up/down editor group |
+| `Alt + e + 1/2/3` | Layout Columns | Set 1/2/3 column layout |
 
 ## 💻 Terminal Operations (`Alt + t`)
 
@@ -244,6 +252,15 @@ This guide covers the reorganized Alt key combinations for VS Code, designed for
 | `Alt + Tab` | Switch Editor | Switch between recent editors |
 | `Alt + n` | Next Suggestion | Next inline suggestion |
 | `Alt + p` | Previous Suggestion | Previous inline suggestion |
+
+## 📁 List Navigation
+
+| Shortcut | Action | Description |
+|----------|--------|-------------|
+| `Ctrl + n` | Move Down | Move down in lists (Emacs-style) |
+| `Ctrl + p` | Move Up | Move up in lists (Emacs-style) |
+| `Alt + n` | Move Down | Move down in lists (Alternative) |
+| `Alt + p` | Move Up | Move up in lists (Alternative) |
 
 ## 📁 File Explorer Shortcuts
 
