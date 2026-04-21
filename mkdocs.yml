@@ -82,3 +82,30 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - AI & Data:
+      - Deep Learning Fundamentals: ai/deep-learning-fundamentals.md
+      - Data Engineering: ai/data-engineering.md
+      - AI Impact 30-Year Outlook: ai/ai-impact-30-year-outlook.md
+  - Git:
+      - Overview: git/index.md
+      - Tips: git/001.tip.md
+  - GitHub:
+      - Overview: github/index.md
+      - Pages: github/pages.md
+  - IDE:
+      - Overview: ide/index.md
+      - Emacs: ide/emacs.md
+      - Spacemacs: ide/spacemacs.md
+      - Neovim: ide/neovim.md
+      - Vim: ide/vim.md
+      - VS Code: ide/vscode.md
+      - SpaceVim: ide/spacevim.md
+  - Bash: bash/index.md
+  - MkDocs: mkdocs/index.md
+  - Tools: note/index.md
+  - VC: vc/index.md
+  - Windows:
+      - Winlogon Setup: windows/setup-winlogon-kiro.md
