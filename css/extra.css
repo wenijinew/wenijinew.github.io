@@ -1,0 +1,294 @@
+@charset "UTF-8";
+
+:root > * {
+  /*definition of color codes*/
+  --gray_05: #0c0c0c;
+  --gray_09: #181818;
+  --gray_14: #242424;
+  --gray_15: #292929;
+  --gray_21: #313131;
+  --gray_37: #5f5f5f;
+  --gray_64: #a4a4a4;
+  --gray_68: #acacac;
+  --gray_76: #d7d7d7;
+  --gray_95: #f2f2f2;
+
+  --blue_20: #181920;
+  --blue_30: #23252e;
+  --blue_40: #393d4a;
+  --blue_50: #617fd8;
+  --blue_60: #aab0be;
+  --blue_70: #d5d8df;
+  --blue_51: #4d73ff;
+  --blue_61: #6787ff;
+  --blue_71: #819bff;
+
+  /*red 10-60 are for bg color, red 110-160 are for fg color*/
+  --red_5: #3f0000; /*very dark red*/
+  --red_10: #580000; /*very dark red*/
+  --red_20: #710000; /*dark moderate red*/
+  --red_30: #8b0000;
+  --red_40: #a1571b;
+  --red_50: #cd6f23;
+  --red_60: #df8943;
+  --red_110: #cf4222;
+  --red_120: #dd4e2d;
+  --red_130: #e06143;
+  --red_132: #e06e43;
+  --red_140: #e47359;
+  --red_150: #eb9885;
+  --red_160: #f2bdb1; /*light red*/
+
+  --green_20: #0c4a19;
+  --green_30: #106020;
+  --green_70: #2e8b57;
+
+  --orange_50: #e66e19;
+  --orange_60: #eb8b47;
+  --orange_65: #ee9a5e;
+  --orange_70: #ffa500;
+  --orange_80: #ffae1a;
+  --orange_90: #ffc967;
+
+  --yellow_50: #808000;
+
+  --cyan_30: #00ced1;
+  --cyan_60: #28ddee;
+
+  --purple_48: #8e45b0;
+
+  /*definition of color usage scenarios*/
+  --default_font_size: 13px;
+  --code_font_size: 15px;
+
+  --fg_default: var(--gray_76);
+  --fg_head: var(--blue_50);
+  --fg_failed: var(--red_110);
+  --fg_assert: var(--red_120);
+  --fg_error: var(--red_130);
+  --fg_exception: var(--red_132);
+  --fg_warning: var(--red_140);
+  --fg_skipped: var(--red_150);
+  --fg_excluded: var(--red_160);
+  --fg_link: var(--blue_50);
+  --fg_link_visited: var(--orange_50);
+
+  --color_input_hover: var(--purple_48);
+
+  --default_padding: 3px;
+  --padding_5: 5px;
+  --padding_8: 8px;
+  --padding_10: 10px;
+
+  --default_margin: 5px;
+  --margin_3: 3px;
+  --margin_8: 8px;
+  --margin_10: 10px;
+  --margin_15: 15px;
+
+  --bg_sysbar: var(--gray_05);
+  --bg_bold: var(--gray_09);
+  --bg_default: var(--gray_14);
+
+  --bg_passed: var(--green_30);
+  --bg_passed_hover: var(--green_20);
+  --bg_failed: var(--red_10);
+  --bg_failed_hover: var(--red_5);
+  --bg_assert: var(--red_20);
+  --bg_error: var(--red_30);
+  --bg_warning: var(--red_40);
+  --bg_skipped: var(--red_50);
+  --bg_excluded: var(--red_60);
+
+  --fg_highlight_msg: #ccbd65;
+  --fg_head_msg: #8fcf96;
+  --fg_skip: #f6f511;
+  --fg_passed: #7cfc00;
+  --bg_highlight: #cdcd08;
+  --line_highlight: #8d4040;
+  --height_tr_head: 45px;
+  --height_tr_special: 50px;
+
+  --color_border: var(--gray_37);
+  --color_border_button: var(--blue_50);
+  --default_border_radius: 6px;
+  --default_border_size: 0.5px;
+
+  --default_font_family:
+    "Ericsson Hilda", Arial, Helvetica, Sans-serif, Courier, Courier-New;
+  --font_family_code: "Roboto Mono", "courier", "courier-new";
+  --footbar_height: 35px;
+  --foot_padding: 15px;
+
+  --tr_height: 35px;
+  --tr_height_45: 45px;
+
+  --search_box_height: 32px;
+
+  --button_font_size: 14px;
+  --fg_button: var(--fg_default);
+  --bg_button: var(--blue_50);
+  --button_border_radius: 3px;
+  --button_height: 32px;
+  --button_min_width: 60px;
+  --button_padding: 5px 12px;
+  --button_decoration: "none";
+
+  --h1: 45px;
+  --h2: 35px;
+  --h3: 25px;
+  --h4: 18px;
+  --h5: 16px;
+  --h6: 14px;
+
+  /*JCAT global variables*/
+  --fg_step: var(--blue_60);
+  --bg_suite_collapse: var(--gray_37);
+  --testlog_row_border_color: var(--gray_37);
+  --testlog_toolbar_height: 60px;
+  --pagination_height: 50px;
+  --pagination_button_height: 32px;
+  --testlog_row_height: var(--tr_height_45);
+  --table_header_height: 50px;
+
+  /*material theme of mkdocs*/
+  --md-typeset-a-color: var(--blue_51);
+  --md-primary-fg-color: var(--blue_30);
+  --md-primary-fg-color--dark: var(--blue_20);
+  --md-primary-fg-color--light: var(--blue_40);
+  --md-primary-bg-color: var(--blue_60);
+  --md-primary-bg-color--dark: var(--blue_70);
+  --md-primary-bg-color--light: var(--blue_70);
+  /*--md-code-hl-color:var(--line_highlight);*/
+  --md-footer-fg-color: var(--gray_68);
+
+  /* Code color shades */
+  --md-code-fg-color: rgb(165, 182, 190);
+  --md-code-bg-color: var(--blue_40);
+}
+
+[data-md-color-scheme="slate"][data-md-color-primary="indigo"] {
+  --md-typeset-a-color: var(--blue_71);
+}
+
+/* -------------------------------------------------------------------
+SECTION: Body and Paragraph and Blocks
+ -------------------------------------------------------------------*/
+.important {
+  color: orange !important;
+}
+
+em {
+  color: yellowgreen;
+}
+.warn {
+    color: #b3a800
+}
+.critical {
+    color: #b84a00
+}
+.fire {
+    color: #f83a00
+}
+.vc_buyin_ticker {
+    color: #239023 !important;
+}
+/*pd: positive divergence*/
+.vc_pd_ticker {
+    color: #b3b300 !important;
+}
+/*ics: increase */
+.vc_ics {
+    color: #8ab300 !important;
+}
+/*dcs: decrease */
+.vc_dcs {
+    color: #b38a00 !important;
+}
+/*gc: gold cross*/
+.vc_gc {
+    color: #438700 !important;
+}
+/*dc: death cross*/
+.vc_dc {
+    color: #D66A00 !important;
+}
+/*ts: three soldiers*/
+.vc_ts_ticker {
+    color: #5ab300 !important;
+}
+.vc_niu_ticker {
+    color: #6AD400 !important;
+}
+.vc_perf_ticker {
+    color: #00b3b3 !important;
+}
+.vc_perf_winner_ticker {
+    color: #28a528 !important;
+}
+.vc_perf_loser_ticker {
+    color: #ffa500 !important;
+}
+.vc_indicator_default {
+    color: #383838 !important;
+}
+.vc_fsl {
+    color: #397800 !important;
+}
+.vc_sd20 {
+    color: #397800 !important;
+}
+
+.success,
+.pass {
+  color: #15d147 !important;
+}
+
+.md-content img {
+  border: 1px solid var(--blue_40);
+}
+
+img.twemoji {
+  border: none;
+}
+
+.md-typeset table:not(.highlighttable) {
+  display: inline-block;
+  margin-bottom: 0.1em;
+  padding: 2px;
+
+  th {
+    min-width: 68px;
+    padding: 8px;
+  }
+
+  td {
+    padding: 5px;
+  }
+}
+
+.md-typeset h1 {
+  font-size: 40px !important;
+  color: orange !important;
+  font-weight: normal !important;
+}
+.md-typeset h2 {
+  font-size: 35px !important;
+  color: #875aef !important;
+  font-weight: normal !important;
+}
+.md-typeset h3 {
+  font-size: 30px !important;
+  color: green !important;
+  font-weight: normal !important;
+}
+.md-typeset h4 {
+  font-size: 25px !important;
+  color: #c251ce !important;
+  font-weight: normal !important;
+}
+
+/* tradingview-widget-container */
+#advanced-chart-widget, #news-widget {
+  height: 680px;
+}
