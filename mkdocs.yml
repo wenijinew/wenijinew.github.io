@@ -73,44 +73,60 @@ markdown_extensions:
   - pymdownx.details     
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - attr_list
+  - def_list
   - md_in_html
+  - tables
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
   - Home: index.md
-  - AI & Data:
-      - Deep Learning Fundamentals: ai/deep-learning-fundamentals.md
-      - Data Engineering: ai/data-engineering.md
-      - AI Impact 30-Year Outlook: ai/ai-impact-30-year-outlook.md
-      - Machine Learning Algorithms: ai/machine-learning-algorithms.md
-      - Neural Network Architectures: ai/neural-network-architectures.md
-      - Natural Language Processing: ai/natural-language-processing.md
-      - Reinforcement Learning: ai/reinforcement-learning.md
-      - Model Training & Optimization: ai/model-training-optimization.md
-      - Feature Engineering: ai/feature-engineering.md
-      - Model Evaluation Metrics: ai/model-evaluation-metrics.md
-      - MLOps & Model Deployment: ai/mlops-model-deployment.md
-      - Generative AI & LLMs: ai/generative-ai-llm.md
-      - AI Ethics & Responsible AI: ai/ai-ethics-responsible-ai.md
-      - Computer Vision: ai/computer-vision.md
-      - Time Series Forecasting: ai/time-series-forecasting.md
-      - Graph Neural Networks: ai/graph-neural-networks.md
-      - Bayesian Machine Learning: ai/bayesian-machine-learning.md
-      - Transfer Learning & Domain Adaptation: ai/transfer-learning-domain-adaptation.md
-      - AI for Code: ai/ai-for-code.md
-      - Multimodal AI: ai/multimodal-ai.md
-      - AI Hardware & Accelerators: ai/ai-hardware-accelerators.md
-      - Federated Learning: ai/federated-learning.md
-      - AI Agents & Autonomous Systems: ai/ai-agents-autonomous-systems.md
+  - AI & Machine Learning:
+      - ai/index.md
+      - Foundations:
+          - Machine Learning Algorithms: ai/machine-learning-algorithms.md
+          - Neural Network Architectures: ai/neural-network-architectures.md
+          - Deep Learning Fundamentals: ai/deep-learning-fundamentals.md
+          - Model Training & Optimization: ai/model-training-optimization.md
+          - Feature Engineering: ai/feature-engineering.md
+          - Model Evaluation Metrics: ai/model-evaluation-metrics.md
+          - Bayesian Machine Learning: ai/bayesian-machine-learning.md
+      - Applications:
+          - Natural Language Processing: ai/natural-language-processing.md
+          - Computer Vision: ai/computer-vision.md
+          - Time Series Forecasting: ai/time-series-forecasting.md
+          - Graph Neural Networks: ai/graph-neural-networks.md
+          - AI for Code: ai/ai-for-code.md
+          - Multimodal AI: ai/multimodal-ai.md
+      - Advanced Topics:
+          - Reinforcement Learning: ai/reinforcement-learning.md
+          - Generative AI & LLMs: ai/generative-ai-llm.md
+          - Transfer Learning & Domain Adaptation: ai/transfer-learning-domain-adaptation.md
+          - Federated Learning: ai/federated-learning.md
+          - AI Agents & Autonomous Systems: ai/ai-agents-autonomous-systems.md
+      - Infrastructure:
+          - Data Engineering: ai/data-engineering.md
+          - MLOps & Model Deployment: ai/mlops-model-deployment.md
+          - AI Hardware & Accelerators: ai/ai-hardware-accelerators.md
+      - Society & Ethics:
+          - AI Ethics & Responsible AI: ai/ai-ethics-responsible-ai.md
+          - AI Impact 30-Year Outlook: ai/ai-impact-30-year-outlook.md
   - Git:
       - Overview: git/index.md
       - Tips: git/001.tip.md
@@ -135,6 +151,11 @@ nav:
           - Monorepo: git/intro/009.monorepo-patterns.md
           - Interactive Staging: git/intro/010.interactive-staging.md
           - Commit Messages: git/intro/011.commit-message-craft.md
+  - Developer Tools:
+      - Bash: bash/index.md
+      - MkDocs: mkdocs/index.md
+      - Tools & Notes: note/index.md
+      - Version Control: vc/index.md
   - GitHub:
       - Overview: github/index.md
       - Pages: github/pages.md
@@ -146,9 +167,6 @@ nav:
       - Vim: ide/vim.md
       - VS Code: ide/vscode.md
       - SpaceVim: ide/spacevim.md
-  - Bash: bash/index.md
-  - MkDocs: mkdocs/index.md
-  - Tools: note/index.md
-  - VC: vc/index.md
   - Windows:
       - Winlogon Setup: windows/setup-winlogon-kiro.md
+  - About: about/index.md
