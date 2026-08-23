@@ -91,6 +91,26 @@ nav:
       - Deep Learning Fundamentals: ai/deep-learning-fundamentals.md
       - Data Engineering: ai/data-engineering.md
       - AI Impact 30-Year Outlook: ai/ai-impact-30-year-outlook.md
+      - Machine Learning Algorithms: ai/machine-learning-algorithms.md
+      - Neural Network Architectures: ai/neural-network-architectures.md
+      - Natural Language Processing: ai/natural-language-processing.md
+      - Reinforcement Learning: ai/reinforcement-learning.md
+      - Model Training & Optimization: ai/model-training-optimization.md
+      - Feature Engineering: ai/feature-engineering.md
+      - Model Evaluation Metrics: ai/model-evaluation-metrics.md
+      - MLOps & Model Deployment: ai/mlops-model-deployment.md
+      - Generative AI & LLMs: ai/generative-ai-llm.md
+      - AI Ethics & Responsible AI: ai/ai-ethics-responsible-ai.md
+      - Computer Vision: ai/computer-vision.md
+      - Time Series Forecasting: ai/time-series-forecasting.md
+      - Graph Neural Networks: ai/graph-neural-networks.md
+      - Bayesian Machine Learning: ai/bayesian-machine-learning.md
+      - Transfer Learning & Domain Adaptation: ai/transfer-learning-domain-adaptation.md
+      - AI for Code: ai/ai-for-code.md
+      - Multimodal AI: ai/multimodal-ai.md
+      - AI Hardware & Accelerators: ai/ai-hardware-accelerators.md
+      - Federated Learning: ai/federated-learning.md
+      - AI Agents & Autonomous Systems: ai/ai-agents-autonomous-systems.md
   - Git:
       - Overview: git/index.md
       - Tips: git/001.tip.md
