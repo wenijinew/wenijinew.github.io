@@ -1,3 +1,9 @@
+---
+tags:
+  - advanced
+  - infrastructure
+---
+
 # MLOps & Model Deployment
 
 *Written: 2026-08-23*

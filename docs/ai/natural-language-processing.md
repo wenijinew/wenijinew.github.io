@@ -1,3 +1,9 @@
+---
+tags:
+  - intermediate
+  - nlp
+---
+
 # Natural Language Processing
 
 *Written: 2026-08-23*

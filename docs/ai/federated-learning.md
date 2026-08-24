@@ -1,3 +1,9 @@
+---
+tags:
+  - advanced
+  - research
+---
+
 # Federated Learning
 
 *Written: 2026-08-23*

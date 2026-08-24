@@ -1,3 +1,9 @@
+---
+tags:
+  - overview
+  - ethics
+---
+
 # AI Impact on Humanity: 30-Year Outlook & Personal Strategy
 
 *Written: 2026-04-19*

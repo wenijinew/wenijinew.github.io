@@ -1,3 +1,9 @@
+---
+tags:
+  - advanced
+  - vision
+---
+
 # Multimodal AI
 
 *Written: 2026-08-23*

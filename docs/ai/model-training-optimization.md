@@ -1,3 +1,9 @@
+---
+tags:
+  - intermediate
+  - foundations
+---
+
 # Model Training & Optimization
 
 *Written: 2026-08-23*

@@ -1,3 +1,9 @@
+---
+tags:
+  - intermediate
+  - foundations
+---
+
 # Neural Network Architectures
 
 *Written: 2026-08-23*

@@ -17,14 +17,19 @@ theme:
   features:
         - search.suggest
         - search.highlight
+        - search.share
         - content.action.edit
         - content.code.copy
         - content.code.annotate
         - content.code.select
         - content.footnote.tooltips
+        - navigation.instant
+        - navigation.instant.progress
         - navigation.tabs
         - navigation.tabs.sticky
-        - navigation.expand
+        - navigation.sections
+        - navigation.indexes
+        - navigation.path
         - navigation.top
         - navigation.footer
         - toc.follow
@@ -61,6 +66,11 @@ theme:
 plugins:
   - search
   - tags
+  - social
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+      fallback_to_build_date: true
 
 markdown_extensions:
   - abbr
@@ -128,18 +138,19 @@ nav:
           - AI Ethics & Responsible AI: ai/ai-ethics-responsible-ai.md
           - AI Impact 30-Year Outlook: ai/ai-impact-30-year-outlook.md
   - Git:
-      - Overview: git/index.md
-      - Tips: git/001.tip.md
-      - Rebase Workflow: git/002.rebase-workflow.md
-      - Submodule Mastery: git/003.submodule-mastery.md
-      - Bisect Debugging: git/004.bisect-debugging.md
-      - Worktree Productivity: git/005.worktree-productivity.md
-      - Reflog Recovery: git/006.reflog-recovery.md
-      - Hook Automation: git/007.hook-automation.md
-      - Merge Strategies: git/008.merge-strategies.md
-      - Monorepo Patterns: git/009.monorepo-patterns.md
-      - Interactive Staging: git/010.interactive-staging.md
-      - Commit Message Craft: git/011.commit-message-craft.md
+      - git/index.md
+      - Deep Dives:
+          - Tips: git/001.tip.md
+          - Rebase Workflow: git/002.rebase-workflow.md
+          - Submodule Mastery: git/003.submodule-mastery.md
+          - Bisect Debugging: git/004.bisect-debugging.md
+          - Worktree Productivity: git/005.worktree-productivity.md
+          - Reflog Recovery: git/006.reflog-recovery.md
+          - Hook Automation: git/007.hook-automation.md
+          - Merge Strategies: git/008.merge-strategies.md
+          - Monorepo Patterns: git/009.monorepo-patterns.md
+          - Interactive Staging: git/010.interactive-staging.md
+          - Commit Message Craft: git/011.commit-message-craft.md
       - Quick Intros:
           - Rebase: git/intro/002.rebase-workflow.md
           - Submodules: git/intro/003.submodule-mastery.md
@@ -151,22 +162,21 @@ nav:
           - Monorepo: git/intro/009.monorepo-patterns.md
           - Interactive Staging: git/intro/010.interactive-staging.md
           - Commit Messages: git/intro/011.commit-message-craft.md
-  - Developer Tools:
-      - Bash: bash/index.md
-      - MkDocs: mkdocs/index.md
-      - Tools & Notes: note/index.md
-      - Version Control: vc/index.md
-  - GitHub:
-      - Overview: github/index.md
-      - Pages: github/pages.md
-  - IDE:
-      - Overview: ide/index.md
+  - IDE & Editors:
+      - ide/index.md
       - Emacs: ide/emacs.md
       - Spacemacs: ide/spacemacs.md
       - Neovim: ide/neovim.md
       - Vim: ide/vim.md
       - VS Code: ide/vscode.md
       - SpaceVim: ide/spacevim.md
-  - Windows:
-      - Winlogon Setup: windows/setup-winlogon-kiro.md
+  - Toolbox:
+      - Bash Scripting: bash/index.md
+      - MkDocs: mkdocs/index.md
+      - Notes & Tips: note/index.md
+      - Windows Setup: windows/setup-winlogon-kiro.md
+      - Version Control: vc/index.md
+  - GitHub:
+      - github/index.md
+      - Pages: github/pages.md
   - About: about/index.md

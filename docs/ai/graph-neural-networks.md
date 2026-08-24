@@ -1,3 +1,9 @@
+---
+tags:
+  - advanced
+  - systems
+---
+
 # Graph Neural Networks
 
 *Written: 2026-08-23*

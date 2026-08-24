@@ -1,153 +1,164 @@
-# MkDocs Guide
+# MkDocs
 
-A comprehensive guide to building documentation sites with [MkDocs](https://www.mkdocs.org/) and the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme.
+*Written: 2026-08-23*
+
+## Overview
+
+MkDocs is a static site generator designed for building project documentation. Combined with the Material for MkDocs theme, it provides a modern, responsive documentation site with minimal configuration.
+
+| Aspect | Detail |
+|--------|--------|
+| Language | Python |
+| Config | `mkdocs.yml` (YAML) |
+| Content | Markdown files |
+| Theme | Material for MkDocs (recommended) |
+| Deployment | GitHub Pages, GitLab Pages, Netlify, S3 |
+
+---
 
 ## Installation
 
 ```bash
-# Install MkDocs and Material theme
-pip install mkdocs mkdocs-material
+# Install MkDocs + Material theme
+pip install mkdocs-material
 
 # Verify installation
 mkdocs --version
-
-# Create a new project
-mkdocs new my-docs
-cd my-docs
 ```
 
-### Recommended extras
-
-```bash
-pip install mkdocs-material[imaging]   # Social cards, image optimization
-pip install mkdocs-minify-plugin       # Minify HTML output
-pip install mkdocs-redirects           # Handle URL changes gracefully
-pip install mkdocs-git-revision-date-localized-plugin  # Show last edit dates
-```
+---
 
 ## Project Structure
 
 ```
-my-docs/
+project/
+├── mkdocs.yml              # Configuration file
 ├── docs/
-│   ├── index.md              # Homepage
-│   ├── about/
-│   │   └── index.md
-│   ├── guides/
-│   │   ├── index.md
-│   │   └── quickstart.md
-│   └── assets/
-│       ├── images/
-│       └── stylesheets/
-│           └── extra.css     # Custom styles
-├── overrides/                # Theme template overrides
-│   └── main.html
-├── mkdocs.yml                # Configuration file
-└── requirements.txt          # Pin your doc dependencies
+│   ├── index.md            # Homepage
+│   ├── section/
+│   │   ├── index.md        # Section landing page
+│   │   ├── page-1.md       # Content page
+│   │   └── page-2.md
+│   ├── css/
+│   │   └── extra.css       # Custom styles
+│   └── overrides/          # Theme overrides
+│       └── main.html
+└── site/                   # Generated output (git-ignored)
 ```
 
-| Path | Purpose |
-|------|---------|
-| `docs/` | All markdown content lives here |
-| `docs/assets/` | Images, CSS, JS — anything static |
-| `overrides/` | Jinja2 templates to extend Material theme |
-| `mkdocs.yml` | Single source of truth for site config |
+---
 
-## Configuration (mkdocs.yml)
+## Essential Commands
 
-### Minimal working config
+| Command | Purpose |
+|---------|---------|
+| `mkdocs serve` | Live preview at localhost:8000 (auto-reload) |
+| `mkdocs build` | Generate static site in `site/` directory |
+| `mkdocs gh-deploy` | Build + deploy to GitHub Pages |
+| `mkdocs new project` | Scaffold new project |
+
+---
+
+## mkdocs.yml Configuration
+
+### Minimal Setup
 
 ```yaml
 site_name: My Documentation
-site_url: https://username.github.io/repo-name
-repo_url: https://github.com/username/repo-name
+site_url: https://username.github.io/repo
 
 theme:
   name: material
-```
-
-### Full-featured config
-
-```yaml
-site_name: Bruce Wen's Knowledge Base
-site_url: https://wenijinew.github.io
-repo_url: https://github.com/wenijinew/wenijinew.github.io
-edit_uri: edit/main/docs/
-
-theme:
-  name: material
-  language: en
   palette:
     - scheme: default
-      primary: indigo
-      accent: amber
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
     - scheme: slate
-      primary: indigo
-      accent: amber
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
   features:
-    - navigation.tabs           # Top-level sections as tabs
-    - navigation.sections       # Render sections as groups in sidebar
-    - navigation.expand         # Expand all collapsible sections
-    - navigation.top            # Back-to-top button
-    - navigation.instant        # SPA-like navigation (no full reload)
-    - search.suggest            # Autocomplete in search
-    - search.highlight          # Highlight matches on target page
-    - content.code.copy         # Copy button on code blocks
-    - content.code.annotate     # Inline code annotations
-    - toc.integrate             # Table of contents in left sidebar
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - toc:
+      permalink: true
 
 nav:
   - Home: index.md
-  - Guides:
-      - guides/index.md
-      - guides/quickstart.md
-  - About: about/index.md
-
-plugins:
-  - search
-  - minify:
-      minify_html: true
-  - git-revision-date-localized:
-      enable_creation_date: true
-
-extra_css:
-  - assets/stylesheets/extra.css
+  - Section:
+      - Page 1: section/page-1.md
+      - Page 2: section/page-2.md
 ```
+
+---
 
 ## Material Theme Features
 
-### Admonitions (callout boxes)
+### Navigation
+
+| Feature | Effect |
+|---------|--------|
+| `navigation.tabs` | Top-level sections as tab bar |
+| `navigation.tabs.sticky` | Tabs visible on scroll |
+| `navigation.expand` | Expand all nav sections by default |
+| `navigation.top` | "Back to top" button |
+| `navigation.footer` | Previous/next page links |
+| `navigation.indexes` | Section index pages |
+| `toc.follow` | TOC follows scroll position |
+
+### Content
+
+| Feature | Effect |
+|---------|--------|
+| `content.code.copy` | Copy button on code blocks |
+| `content.code.annotate` | Code annotations (numbered comments) |
+| `content.tabs.link` | Linked tabs (switch all at once) |
+| `search.suggest` | Search autocomplete |
+| `search.highlight` | Highlight search terms on page |
+
+---
+
+## Markdown Extensions
+
+### Admonitions
 
 ```markdown
-!!! note "Title here"
+!!! note "Title"
     Content inside the admonition.
 
 !!! warning
-    This is a warning without a custom title.
+    Default title is the type name.
 
-!!! tip inline end
-    Inline admonitions float beside content.
+??? tip "Collapsible"
+    Content hidden until clicked.
 ```
 
-Available types: `note`, `abstract`, `info`, `tip`, `success`, `question`, `warning`, `failure`, `danger`, `bug`, `example`, `quote`.
+Types: `note`, `abstract`, `info`, `tip`, `success`, `question`, `warning`, `failure`, `danger`, `bug`, `example`, `quote`
 
-### Code blocks with features
+### Code Blocks
 
 ````markdown
 ```python title="example.py" linenums="1" hl_lines="2 3"
-def greet(name: str) -> str:
-    """Return a greeting."""
-    return f"Hello, {name}!"
+def hello():
+    name = "world"       # (1)!
+    return f"Hello, {name}"
 ```
+
+1. This is a code annotation!
 ````
 
-### Content tabs
+### Tabbed Content
 
 ```markdown
 === "Python"
@@ -155,58 +166,32 @@ def greet(name: str) -> str:
     print("Hello")
     ```
 
-=== "Bash"
-    ```bash
-    echo "Hello"
+=== "Rust"
+    ```rust
+    println!("Hello");
     ```
 ```
 
-### Diagrams with Mermaid
+### Mermaid Diagrams
 
 ````markdown
 ```mermaid
 graph LR
-    A[Write Docs] --> B[Build Site]
-    B --> C[Deploy]
+    A[Input] --> B{Process}
+    B --> C[Output]
+    B --> D[Error]
 ```
 ````
 
-## Markdown Extensions
-
-Add to `mkdocs.yml`:
-
-```yaml
-markdown_extensions:
-  - admonition                   # Callout boxes
-  - pymdownx.details             # Collapsible admonitions
-  - pymdownx.superfences:        # Fenced code blocks, Mermaid
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed:             # Content tabs
-      alternate_style: true
-  - pymdownx.highlight:          # Code highlighting
-      anchor_linenums: true
-  - pymdownx.inlinehilite        # Inline code highlighting
-  - pymdownx.snippets            # Include external files
-  - pymdownx.arithmatex:         # LaTeX math
-      generic: true
-  - attr_list                    # Add HTML attributes to elements
-  - md_in_html                   # Markdown inside HTML blocks
-  - tables                       # Standard tables
-  - toc:
-      permalink: true            # Anchor links on headings
-```
+---
 
 ## Deployment to GitHub Pages
 
-### Option 1: GitHub Actions (recommended)
-
-Create `.github/workflows/docs.yml`:
+### Using GitHub Actions
 
 ```yaml
-name: Deploy Docs
+# .github/workflows/docs.yml
+name: Deploy docs
 on:
   push:
     branches: [main]
@@ -219,68 +204,76 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0      # Needed for git-revision-date plugin
-
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
-      - run: pip install mkdocs-material mkdocs-minify-plugin
-
+      - run: pip install mkdocs-material
       - run: mkdocs gh-deploy --force
 ```
 
-### Option 2: Manual deploy
+### Manual Deploy
 
 ```bash
-# Build and push to gh-pages branch
 mkdocs gh-deploy
-
-# Or build only (output in site/)
-mkdocs build
+# Builds site and pushes to gh-pages branch
 ```
 
-### GitHub repo settings
-
-1. Go to **Settings → Pages**
-2. Set source to **Deploy from a branch**
-3. Select branch: `gh-pages` / `/ (root)`
+---
 
 ## Useful Plugins
 
 | Plugin | Purpose | Install |
 |--------|---------|---------|
-| `mkdocs-material` | Feature-rich theme | `pip install mkdocs-material` |
-| `mkdocs-minify-plugin` | Minify HTML/JS/CSS | `pip install mkdocs-minify-plugin` |
-| `mkdocs-git-revision-date-localized-plugin` | Last-updated dates | `pip install mkdocs-git-revision-date-localized-plugin` |
-| `mkdocs-redirects` | URL redirects | `pip install mkdocs-redirects` |
-| `mkdocs-macros-plugin` | Jinja2 macros in markdown | `pip install mkdocs-macros-plugin` |
-| `mkdocs-glightbox` | Image lightbox (zoom) | `pip install mkdocs-glightbox` |
-| `mkdocs-awesome-pages-plugin` | Auto-generate nav | `pip install mkdocs-awesome-pages-plugin` |
-
-## Local Development
-
-```bash
-# Live-reload server (watches for changes)
-mkdocs serve
-
-# Serve on a specific port
-mkdocs serve -a localhost:9000
-
-# Build without deploying (check for warnings)
-mkdocs build --strict
-```
-
-## Tips
-
-- Use `--strict` in CI to catch broken links and missing references
-- Put large images in `docs/assets/images/` and reference with relative paths
-- Use `nav:` in `mkdocs.yml` to control page order explicitly — without it, MkDocs sorts alphabetically
-- Add `extra.social` in config for footer social links
-- Override templates in `overrides/` for custom headers, footers, or analytics
-- Pin your dependencies in `requirements.txt` to avoid surprise breakage
+| `search` | Built-in search | Included |
+| `tags` | Tag pages, tag index | Included with Material |
+| `blog` | Blog-style posts with dates | Material Insiders |
+| `social` | Auto-generate social cards | Material Insiders |
+| `optimize` | Compress images | Material Insiders |
+| `privacy` | Self-host external assets | Material Insiders |
+| `mkdocstrings` | Auto-generate API docs from docstrings | `pip install mkdocstrings` |
+| `git-revision-date-localized` | Show last edit date | Separate package |
+| `minify` | Minify HTML/JS/CSS | Separate package |
 
 ---
 
-*Last updated: 2026-08-23*
+## Custom CSS
+
+```css
+/* docs/css/extra.css */
+
+/* Custom admonition colors */
+:root {
+    --md-admonition-icon--tip: url('data:image/svg+xml,...');
+}
+
+/* Wider content area */
+.md-grid {
+    max-width: 1440px;
+}
+
+/* Custom code block styling */
+.highlight code {
+    font-size: 0.85em;
+}
+```
+
+Reference in mkdocs.yml:
+
+```yaml
+extra_css:
+  - css/extra.css
+```
+
+---
+
+## Tips
+
+| Tip | How |
+|-----|-----|
+| Live reload | `mkdocs serve --dirtyreload` (faster, partial rebuild) |
+| Strict mode | `mkdocs build --strict` (fail on warnings) |
+| Custom 404 | Create `docs/404.md` |
+| Page metadata | YAML frontmatter (`title`, `description`, `tags`) |
+| Hide navigation | Frontmatter: `hide: [navigation, toc]` |
+| Link to heading | `[text](#heading-slug)` or `[text](page.md#heading)` |
+| Image with caption | Use `<figure>` with `md_in_html` extension |

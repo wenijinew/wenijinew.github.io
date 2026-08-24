@@ -1,3 +1,9 @@
+---
+tags:
+  - intermediate
+  - research
+---
+
 # Time Series Forecasting
 
 *Written: 2026-08-23*

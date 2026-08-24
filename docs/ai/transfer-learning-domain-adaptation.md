@@ -1,3 +1,9 @@
+---
+tags:
+  - advanced
+  - research
+---
+
 # Transfer Learning & Domain Adaptation
 
 *Written: 2026-08-23*

@@ -1,3 +1,9 @@
+---
+tags:
+  - intermediate
+  - foundations
+---
+
 # Deep Learning Fundamentals
 
 ## Activation Functions

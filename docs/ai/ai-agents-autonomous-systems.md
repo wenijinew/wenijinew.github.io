@@ -1,3 +1,9 @@
+---
+tags:
+  - advanced
+  - systems
+---
+
 # AI Agents & Autonomous Systems
 
 *Written: 2026-08-23*

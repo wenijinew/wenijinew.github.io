@@ -1,3 +1,9 @@
+---
+tags:
+  - advanced
+  - nlp
+---
+
 # Generative AI & Large Language Models
 
 *Written: 2026-08-23*

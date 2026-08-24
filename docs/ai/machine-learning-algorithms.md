@@ -1,3 +1,9 @@
+---
+tags:
+  - beginner
+  - foundations
+---
+
 # Machine Learning Algorithms
 
 *Written: 2026-08-23*

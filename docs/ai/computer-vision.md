@@ -1,3 +1,9 @@
+---
+tags:
+  - intermediate
+  - vision
+---
+
 # Computer Vision
 
 *Written: 2026-08-23*

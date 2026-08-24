@@ -1,3 +1,9 @@
+---
+tags:
+  - beginner
+  - foundations
+---
+
 # Model Evaluation Metrics
 
 *Written: 2026-08-23*

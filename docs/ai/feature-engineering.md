@@ -1,3 +1,9 @@
+---
+tags:
+  - beginner
+  - foundations
+---
+
 # Feature Engineering
 
 *Written: 2026-08-23*

@@ -1,3 +1,9 @@
+---
+tags:
+  - intermediate
+  - foundations
+---
+
 # Bayesian Machine Learning
 
 *Written: 2026-08-23*

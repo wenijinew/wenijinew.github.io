@@ -1,3 +1,9 @@
+---
+tags:
+  - intermediate
+  - infrastructure
+---
+
 # Data Storage Formats & Database Categories
 
 ## OLTP vs OLAP

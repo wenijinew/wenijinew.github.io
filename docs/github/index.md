@@ -1,61 +1,67 @@
 # GitHub
 
-A practical reference for GitHub features, workflows, and the `gh` CLI. For GitHub Pages specifics, see [pages](pages.md).
+*Written: 2026-08-23*
 
-## Repositories
+## Overview
 
-| Concept | Description |
-|---------|-------------|
-| Public repo | Visible to everyone, forkable |
-| Private repo | Access controlled by owner/org |
-| Template repo | Used as a starting point for new repos (Settings → Template repository) |
-| Fork | Server-side copy under your account — used for contributing to others' projects |
-| Mirror | Read-only copy synced from upstream |
+GitHub — the world's largest code hosting platform. Beyond Git repositories, it provides CI/CD (Actions), project management (Issues/Projects), package registry, and collaboration tools.
 
-### Repository best practices
+---
 
-- Always include `README.md`, `.gitignore`, and `LICENSE`
-- Use branch protection rules on `main` — require PR reviews and status checks
-- Enable Dependabot for security updates
-- Add `CODEOWNERS` file for automatic review assignments
+## Core Concepts
 
-## Branches and Pull Requests
+| Concept | Purpose |
+|---------|---------|
+| Repository | Project container (code, history, config) |
+| Branch | Isolated line of development |
+| Pull Request (PR) | Propose + review + merge changes |
+| Issue | Track bugs, features, tasks |
+| Actions | CI/CD workflows (YAML-defined) |
+| Projects | Kanban boards for planning |
+| Releases | Versioned artifacts with changelogs |
+| Packages | Container/package registry |
 
-### Branch workflow
+---
+
+## GitHub CLI (gh)
+
+### Installation
 
 ```bash
-# Create feature branch
-git checkout -b feature/add-pagination
+# macOS
+brew install gh
 
-# Push and set upstream
-git push -u origin feature/add-pagination
+# Linux (Debian/Ubuntu)
+sudo apt install gh
 
-# Create PR from command line
-gh pr create --title "Add pagination" --body "Implements offset/limit"
+# Authenticate
+gh auth login
 ```
 
-### Pull Request lifecycle
+### Essential Commands
 
-1. **Draft PR** — open early for visibility, mark as draft
-2. **Review** — request reviewers, respond to comments
-3. **CI passes** — all status checks green
-4. **Merge** — squash, merge commit, or rebase (project preference)
+| Command | Purpose |
+|---------|---------|
+| `gh repo clone owner/repo` | Clone repository |
+| `gh repo create name --public` | Create new repo |
+| `gh pr create --fill` | Create PR from current branch |
+| `gh pr list` | List open PRs |
+| `gh pr checkout 42` | Check out PR #42 locally |
+| `gh pr merge 42 --squash` | Squash-merge PR |
+| `gh issue create --title "Bug"` | Create issue |
+| `gh issue list --label bug` | List bugs |
+| `gh run list` | List workflow runs |
+| `gh run watch` | Watch current workflow |
+| `gh release create v1.0` | Create release |
 
-### Merge strategies
+---
 
-| Strategy | When to use |
-|----------|-------------|
-| Squash and merge | Feature branches with messy history |
-| Merge commit | Preserve full branch history |
-| Rebase and merge | Linear history, clean commits |
+## GitHub Actions (CI/CD)
 
-## GitHub Actions
-
-CI/CD built into GitHub. Workflows live in `.github/workflows/`.
-
-### Minimal workflow example
+### Basic Workflow
 
 ```yaml
+# .github/workflows/ci.yml
 name: CI
 on:
   push:
@@ -71,89 +77,45 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install -e ".[dev]"
-      - run: pytest
+      - run: pip install -r requirements.txt
+      - run: pytest --tb=short
 ```
 
-### Key concepts
+### Useful Actions
 
-| Concept | Description |
-|---------|-------------|
-| Workflow | YAML file defining automation pipeline |
-| Job | Set of steps running on one runner |
-| Step | Single command or action |
-| Action | Reusable unit (e.g., `actions/checkout@v4`) |
-| Secret | Encrypted variable (Settings → Secrets) |
-| Matrix | Run job across multiple configurations |
-| Artifact | Files persisted between jobs |
-
-## Issues and Projects
-
-### Issues
-
-- Use templates (`.github/ISSUE_TEMPLATE/`) for consistent bug reports and feature requests
-- Labels categorize issues: `bug`, `enhancement`, `good first issue`
-- Milestones group issues into releases
-- Close issues from commits: `Fixes #42` in commit message
-
-### GitHub Projects (v2)
-
-- Kanban boards with custom fields (status, priority, sprint)
-- Views: board, table, roadmap
-- Automation: auto-add issues, auto-move on close
-- Link to repository issues and PRs
-
-## GitHub CLI (`gh`)
-
-The official CLI for GitHub — faster than the web UI for common tasks.
-
-```bash
-# Install
-brew install gh          # macOS
-sudo apt install gh      # Debian/Ubuntu
-
-# Authenticate
-gh auth login
-
-# Common commands
-gh repo clone owner/repo
-gh pr create --fill              # Auto-fill title/body from commits
-gh pr list --state open
-gh pr checkout 123               # Fetch and switch to PR branch
-gh pr merge 123 --squash
-gh issue create --title "Bug" --label bug
-gh issue list --assignee @me
-gh run list                      # View workflow runs
-gh run watch                     # Live-tail a running workflow
-gh release create v1.0.0 --generate-notes
-```
-
-### Useful `gh` patterns
-
-```bash
-# Review a PR in terminal
-gh pr diff 123
-
-# Check CI status of current branch
-gh pr checks
-
-# Open current repo in browser
-gh browse
-
-# Create repo from template
-gh repo create my-new-repo --template owner/template-repo
-```
-
-## Tips
-
-- **Signed commits**: `git config commit.gpgsign true` — shows "Verified" badge on commits
-- **GitHub search**: `is:issue is:open label:bug` — powerful search syntax across repos
-- **Notifications**: filter aggressively — watch only repos you contribute to
-- **`.github/` repo**: create a profile README and default community health files
-- **Keyboard shortcuts**: press `?` on any GitHub page to see available shortcuts
-- **Code navigation**: click any symbol in source view for jump-to-definition (supported languages)
-- **Permalinks**: press `y` on a file view to get a commit-pinned URL (won't break if file changes)
+| Action | Purpose |
+|--------|---------|
+| `actions/checkout@v4` | Check out repo |
+| `actions/setup-python@v5` | Install Python |
+| `actions/setup-node@v4` | Install Node.js |
+| `actions/cache@v4` | Cache dependencies |
+| `actions/upload-artifact@v4` | Save build artifacts |
+| `github/codeql-action` | Security scanning |
+| `softprops/action-gh-release` | Auto-create releases |
 
 ---
 
-*Last updated: 2026-08-23*
+## Branch Protection Rules
+
+| Rule | Effect |
+|------|--------|
+| Require PR reviews | No direct push to main |
+| Require status checks | CI must pass before merge |
+| Require linear history | Squash or rebase only (no merge commits) |
+| Require signed commits | GPG signature required |
+| Restrict push access | Only specific teams can push |
+
+---
+
+## Tips
+
+| Tip | How |
+|-----|-----|
+| Quick file edit | Press `.` on any repo page → open in web editor |
+| Search code | `repo:owner/name language:python "pattern"` |
+| Keyboard shortcuts | Press `?` on any GitHub page |
+| Draft PRs | Create PR as draft → mark ready when done |
+| Auto-close issues | PR description: `Fixes #42` or `Closes #42` |
+| CODEOWNERS | `.github/CODEOWNERS` → auto-assign reviewers |
+| Dependabot | `.github/dependabot.yml` → auto-update deps |
+| Templates | `.github/PULL_REQUEST_TEMPLATE.md` |
